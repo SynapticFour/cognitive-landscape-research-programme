@@ -2,14 +2,16 @@
 clrp-id: CLRP-007
 title: Non-Diagnostic Commitment
 version: 0.1.0
-status: Draft
+status: Proposed
 date: 2026-07-07
+proposed-date: 2026-07-07
+review-until: 2026-07-21
 authors:
   - Synaptic Four
 license: CC-BY-4.0
 ---
 
-> **Status: Draft** — This document is work in progress and does not yet represent an accepted programme commitment.
+> **Status: Proposed** — Ready for review. Comment period open until **2026-07-21**. See [active reviews](../docs/governance/active-reviews.md).
 
 # CLRP-007: Non-Diagnostic Commitment
 
@@ -73,6 +75,7 @@ Report ethical misuse to [contact@synapticfour.com](mailto:contact@synapticfour.
 
 | Version | Date | Status | Summary |
 |---------|------|--------|---------|
+| 0.1.0 | 2026-07-07 | Proposed | Open for review until 2026-07-21 |
 | 0.1.0 | 2026-07-07 | Draft | Initial publication |
 
 ## References

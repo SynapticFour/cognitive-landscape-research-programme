@@ -14,6 +14,8 @@ Programme specifications live in [`../clrp/`](../clrp/). This directory explains
 | [ecosystem/relationship-to-clm.md](ecosystem/relationship-to-clm.md) | CLRP ↔ Cognitive Landscape Model |
 | [ecosystem/relationship-to-pcms.md](ecosystem/relationship-to-pcms.md) | CLRP ↔ Perceptual & Cognitive Mapping System |
 | [ecosystem/relationship-to-synapticfour.md](ecosystem/relationship-to-synapticfour.md) | CLRP ↔ Synaptic Four website and organisation |
+| [zenodo-integration.md](zenodo-integration.md) | DOI archival via Zenodo + GitHub Releases |
+| [governance/active-reviews.md](governance/active-reviews.md) | Open Proposed document comment periods |
 
 ## Licensing rationale
 

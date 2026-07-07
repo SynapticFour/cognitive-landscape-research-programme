@@ -116,6 +116,8 @@ Rationale: [docs/README.md](docs/README.md#licensing-rationale)
 
 To cite the programme as a whole, use [CITATION.cff](CITATION.cff). To cite a specific document, use its document ID, version, and release DOI when available. See [docs/citation/citation-guide.md](docs/citation/citation-guide.md).
 
+**Latest release:** [clrp-v2026.1](https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1) · Zenodo DOI pending — see [docs/zenodo-integration.md](docs/zenodo-integration.md).
+
 ## Governance and contact
 
 - **Governance:** [GOVERNANCE.md](GOVERNANCE.md)

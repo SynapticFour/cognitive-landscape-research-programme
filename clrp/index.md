@@ -13,7 +13,7 @@ Canonical index of **CLRP-NNN** programme documents. For lifecycle rules see [do
 | CLRP-004 | Epistemic Commitments | 0.1.0 | Draft | [CLRP-004-epistemic-commitments.md](CLRP-004-epistemic-commitments.md) |
 | CLRP-005 | Layer Separation | 0.1.0 | Draft | [CLRP-005-layer-separation.md](CLRP-005-layer-separation.md) |
 | CLRP-006 | Evidence and Validation | 0.1.0 | Draft | [CLRP-006-evidence-and-validation.md](CLRP-006-evidence-and-validation.md) |
-| CLRP-007 | Non-Diagnostic Commitment | 0.1.0 | Draft | [CLRP-007-non-diagnostic-commitment.md](CLRP-007-non-diagnostic-commitment.md) |
+| CLRP-007 | Non-Diagnostic Commitment | 0.1.0 | **Proposed** (review until 2026-07-21) | [CLRP-007-non-diagnostic-commitment.md](CLRP-007-non-diagnostic-commitment.md) |
 | CLRP-008 | Cultural Adaptation | 0.1.0 | Draft | [CLRP-008-cultural-adaptation.md](CLRP-008-cultural-adaptation.md) |
 | CLRP-009 | Implementations and Conformance | 0.1.0 | Draft | [CLRP-009-implementations-and-conformance.md](CLRP-009-implementations-and-conformance.md) |
 

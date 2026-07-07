@@ -7,9 +7,11 @@ last-updated: "2026-07-07"
 
 releases:
   - tag: clrp-v2026.1
-    status: planned
-    date: null
+    status: published
+    date: "2026-07-07"
     doi: null
+    github_release: https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1
+    zenodo: pending
 
 specifications:
   - id: CLRP-000
@@ -50,7 +52,8 @@ specifications:
   - id: CLRP-007
     title: Non-Diagnostic Commitment
     version: 0.1.0
-    status: Draft
+    status: Proposed
+    review_until: "2026-07-21"
     path: clrp/CLRP-007-non-diagnostic-commitment.md
   - id: CLRP-008
     title: Cultural Adaptation

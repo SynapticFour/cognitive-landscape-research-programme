@@ -7,6 +7,8 @@ CLRP specification documents maintain their own revision history; this file trac
 
 ## [Unreleased]
 
+## [clrp-v2026.1] - 2026-07-07
+
 ### Added
 
 - Initial repository structure and governance stack
@@ -15,6 +17,12 @@ CLRP specification documents maintain their own revision history; this file trac
 - Templates for CLRP specs, technical reports, research notes, proposals, and validation reports
 - Versioning policy, citation guide, ecosystem relationship documents
 - Repository architecture diagram
+- GitHub Release [clrp-v2026.1](https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1)
+- Zenodo integration metadata (`.zenodo.json`, `docs/zenodo-integration.md`)
+
+### Changed
+
+- CLRP-007 → **Proposed** (comment period until 2026-07-21)
 
 ---
 
@@ -35,6 +43,7 @@ Status changes for individual CLRP documents are recorded in each document's rev
 
 | Date | Document | Change |
 |------|----------|--------|
+| 2026-07-07 | CLRP-007 | Draft → Proposed (review until 2026-07-21) |
 | 2026-07-07 | CLRP-000 – CLRP-009 | Created as Draft |
 | 2026-07-07 | GOVERNANCE.md | Accepted v1.0.0 |
 

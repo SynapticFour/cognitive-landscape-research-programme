@@ -43,7 +43,7 @@ Synaptic Four maintains CLM and PCMS but does not imply that all programme resea
 ```
 synapticfour.com/
 ├── research/
-│   └── cognitive-landscape/          # Programme landing page
+│   └── cognitive-landscape/          # Programme landing page (live on site)
 │       ├── overview → links to CLRP repo
 │       ├── pcm-research-note/        # (existing) instrument orientation
 │       └── publications/             # Programme bibliography

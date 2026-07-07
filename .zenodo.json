@@ -1,0 +1,28 @@
+{
+  "title": "Cognitive Landscape Research Programme (CLRP)",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "Implementation-independent foundation for research on cognitive diversity as a continuous landscape. Includes CLRP specifications, validation status reports, governance, and citation metadata. Documentation licensed CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Synaptic Four",
+      "affiliation": "Synaptic Four"
+    }
+  ],
+  "keywords": [
+    "cognitive landscape",
+    "cognitive diversity",
+    "dimensional modelling",
+    "psychometrics",
+    "open science",
+    "non-diagnostic assessment",
+    "research programme"
+  ],
+  "license": "CC-BY-4.0",
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "notes": "Enable GitHub integration at https://zenodo.org/account/settings/github/ and toggle ON for SynapticFour/cognitive-landscape-research-programme. Each GitHub Release (clrp-v*) is archived automatically. See docs/zenodo-integration.md."
+}
