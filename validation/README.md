@@ -26,7 +26,8 @@ Implementation repositories (e.g. PCMS `VALIDATION_PROTOCOL.md`) should **shrink
 
 | ID | Title | Instrument | Tier | Status |
 |----|-------|------------|------|--------|
-| — | *No validation reports published yet* | — | — | — |
+| [CLRP-VR-2026-001](./CLRP-VR-2026-001-pcms-instrument-status.md) | PCMS Instrument Validation Status | PCMS v1.0 | T0 | Draft |
+| [CLRP-VR-2026-002](./CLRP-VR-2026-002-clm-framework-status.md) | CLM Framework Validation Status | CLM v0.2 | T1 | Draft |
 
 ## Planned studies (informative)
 

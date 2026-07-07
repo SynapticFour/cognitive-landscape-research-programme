@@ -65,5 +65,15 @@ specifications:
 
 technical-reports: []
 research-notes: []
-validation-reports: []
+validation-reports:
+  - id: CLRP-VR-2026-001
+    title: PCMS Instrument Validation Status
+    version: 0.1.0
+    status: Draft
+    path: validation/CLRP-VR-2026-001-pcms-instrument-status.md
+  - id: CLRP-VR-2026-002
+    title: CLM Framework Validation Status
+    version: 0.1.0
+    status: Draft
+    path: validation/CLRP-VR-2026-002-clm-framework-status.md
 proposals: []
