@@ -102,7 +102,7 @@ All participants must follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Report co
 
 ## Questions
 
-Open a [GitHub Discussion](https://github.com/SynapticFour/cognitive-landscape-research-programme/discussions) (when enabled) or email [contact@synapticfour.com](mailto:contact@synapticfour.com).
+Open a [GitHub Issue](https://github.com/SynapticFour/cognitive-landscape-research-programme/issues) or email [contact@synapticfour.com](mailto:contact@synapticfour.com).
 
 ---
 

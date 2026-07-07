@@ -169,7 +169,7 @@ CLRP documents should **not** replace citation of peer-reviewed literature where
 Within this repository, link as:
 
 ```markdown
-[CLRP-003: Measurement Principles](../clrp/CLRP-003-measurement-principles.md)
+[CLRP-003: Measurement Principles](../../clrp/CLRP-003-measurement-principles.md)
 ```
 
 In external repositories:

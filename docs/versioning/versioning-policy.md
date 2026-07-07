@@ -146,7 +146,7 @@ Feature work happens on branches; **Accepted** documents merge only through revi
 
 ## Relationship to implementations
 
-Implementation version numbers (CLM v0.2, PCMS v1.0) are **independent**. Implementations declare which CLRP release they conform to (see [CLRP-009](../clrp/CLRP-009-implementations-and-conformance.md)).
+Implementation version numbers (CLM v0.2, PCMS v1.0) are **independent**. Implementations declare which CLRP release they conform to (see [CLRP-009](../../clrp/CLRP-009-implementations-and-conformance.md)).
 
 ## Errata
 
