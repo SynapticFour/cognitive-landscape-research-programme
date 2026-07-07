@@ -16,24 +16,27 @@ Cite the **most specific** artifact you relied upon.
 
 ## 1. Citing the programme (general reference)
 
-Use when referring to CLRP as an ongoing research programme without a specific document.
+Use when referring to CLRP as an ongoing research programme without pinning to a specific release. Resolves to the latest version via Zenodo.
 
 **BibTeX:**
 
 ```bibtex
-@misc{clrp2026,
+@misc{clrp2026concept,
   author       = {{Synaptic Four}},
   title        = {Cognitive Landscape Research Programme ({CLRP})},
   year         = {2026},
-  publisher    = {GitHub},
-  howpublished = {\url{https://github.com/SynapticFour/cognitive-landscape-research-programme}},
-  note         = {Documentation licensed under CC BY 4.0}
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21236099},
+  url          = {https://doi.org/10.5281/zenodo.21236099},
+  note         = {Concept DOI; documentation licensed under CC BY 4.0}
 }
 ```
 
 **APA:**
 
-> Synaptic Four. (2026). *Cognitive Landscape Research Programme (CLRP)*. GitHub. https://github.com/SynapticFour/cognitive-landscape-research-programme
+> Synaptic Four. (2026). *Cognitive Landscape Research Programme (CLRP)*. Zenodo. https://doi.org/10.5281/zenodo.21236099
+
+For a **specific release**, use the version DOI (section 2) or GitHub tag.
 
 Also see root [CITATION.cff](../../CITATION.cff) for machine-readable metadata.
 
@@ -44,14 +47,25 @@ When citing a frozen programme state (recommended for reproducibility):
 ```bibtex
 @misc{clrp2026_1,
   author       = {{Synaptic Four}},
-  title        = {Cognitive Landscape Research Programme ({CLRP}) Release 2026.1},
+  title        = {Cognitive Landscape Research Programme ({CLRP})},
   year         = {2026},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1}
+  version      = {clrp-v2026.1},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21236100},
+  url          = {https://doi.org/10.5281/zenodo.21236100}
 }
 ```
 
-Replace DOI when Zenodo integration is configured.
+**APA:**
+
+> Synaptic Four. (2026). *Cognitive Landscape Research Programme (CLRP)* (Version clrp-v2026.1). Zenodo. https://doi.org/10.5281/zenodo.21236100
+
+| DOI | Use when |
+|-----|----------|
+| [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) | Citing **this** release (`clrp-v2026.1`) |
+| [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) | Citing the programme **in general** (always resolves to latest) |
+
+GitHub tag (alternative): https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1
 
 ## 3. Citing a CLRP specification
 
@@ -119,6 +133,7 @@ In code provenance metadata:
 {
   "programme": "CLRP",
   "clrpRelease": "clrp-v2026.1",
+  "clrpDoi": "10.5281/zenodo.21236100",
   "clrpDocuments": [
     {"id": "CLRP-003", "version": "1.0.0"},
     {"id": "CLRP-007", "version": "1.0.0"}
@@ -169,11 +184,12 @@ Always pin to a **tag or commit**, not `main`, in reproducible research.
 
 | Artifact | DOI |
 |----------|-----|
-| Programme releases | Zenodo concept DOI + version DOIs |
+| Programme releases | Version DOI per release + [concept DOI 10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) |
+| `clrp-v2026.1` | [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) |
 | Individual CLRP specs | Included in release archive; optional standalone deposit for major specs |
 | CLRP-TR / CLRP-VR | Encouraged per report via Zenodo or journal DOI |
 
-Configure `.zenodo.json` when steward approves Zenodo-GitHub integration (mirroring Synaptic Four technical-reports practice).
+Zenodo GitHub integration is **enabled**. See [zenodo-integration.md](../zenodo-integration.md).
 
 ## 8. What not to cite
 

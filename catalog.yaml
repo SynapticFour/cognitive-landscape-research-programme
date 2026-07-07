@@ -9,9 +9,10 @@ releases:
   - tag: clrp-v2026.1
     status: published
     date: "2026-07-07"
-    doi: null
+    doi: "10.5281/zenodo.21236100"
+    concept_doi: "10.5281/zenodo.21236099"
+    zenodo_record: "https://zenodo.org/records/21236100"
     github_release: https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1
-    zenodo: pending
 
 specifications:
   - id: CLRP-000

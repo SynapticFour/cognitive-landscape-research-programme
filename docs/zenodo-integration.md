@@ -63,10 +63,12 @@ Zenodo GitHub integration requires a **public** repository. CLRP is public by de
 
 Manual upload alternative: create a deposition at https://zenodo.org/deposit/new and upload the release `.zip` from GitHub Releases.
 
-## Related
+## Status
 
-- Synaptic Four SF-TR Zenodo workflow: `SynapticFour/technical-reports/docs/zenodo-integration.md` (PDF/HTML reports; different series)
+**Integration:** Enabled (2026-07-07).
 
----
+| Release | Version DOI | Concept DOI | Zenodo record |
+|---------|-------------|-------------|---------------|
+| `clrp-v2026.1` | [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) | [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) | [21236100](https://zenodo.org/records/21236100) |
 
-**Status:** Integration configured in repository; steward must enable Zenodo GitHub toggle.
+Future releases: Zenodo creates a new version under the same concept DOI when GitHub Releases are published.

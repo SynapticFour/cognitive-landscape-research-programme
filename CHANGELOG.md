@@ -7,6 +7,10 @@ CLRP specification documents maintain their own revision history; this file trac
 
 ## [Unreleased]
 
+### Added
+
+- Zenodo DOIs for `clrp-v2026.1` (version `10.5281/zenodo.21236100`, concept `10.5281/zenodo.21236099`)
+
 ## [clrp-v2026.1] - 2026-07-07
 
 ### Added

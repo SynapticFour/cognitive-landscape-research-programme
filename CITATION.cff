@@ -3,13 +3,14 @@ title: Cognitive Landscape Research Programme (CLRP)
 message: >-
   If you use the Cognitive Landscape Research Programme in your work,
   please cite this repository or the specific CLRP document you relied on.
-  Use the release DOI when citing a tagged snapshot.
+  For a frozen release snapshot, use the version DOI below. For the programme
+  in general (latest version), use concept DOI 10.5281/zenodo.21236099.
 type: software
 authors:
   - name: Synaptic Four
     affiliation: Synaptic Four
 repository-code: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
-url: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
+url: 'https://doi.org/10.5281/zenodo.21236100'
 license: CC-BY-4.0
 keywords:
   - cognitive landscape
@@ -27,7 +28,10 @@ preferred-citation:
     - name: Synaptic Four
   year: 2026
   institution: Synaptic Four
-  url: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
+  version: clrp-v2026.1
+  doi: 10.5281/zenodo.21236100
+  url: 'https://doi.org/10.5281/zenodo.21236100'
   notes: >-
-    Cite the specific CLRP document (e.g. CLRP-003) and version when
-    referencing normative programme content. See docs/citation/citation-guide.md.
+    Concept DOI (all versions): 10.5281/zenodo.21236099. Cite the specific
+    CLRP document (e.g. CLRP-003) and version when referencing normative
+    programme content. See docs/citation/citation-guide.md.
