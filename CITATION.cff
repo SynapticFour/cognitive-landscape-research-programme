@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: Cognitive Landscape Research Programme (CLRP)
+message: >-
+  If you use the Cognitive Landscape Research Programme in your work,
+  please cite this repository or the specific CLRP document you relied on.
+  Use the release DOI when citing a tagged snapshot.
+type: software
+authors:
+  - name: Synaptic Four
+    affiliation: Synaptic Four
+repository-code: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
+url: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
+license: CC-BY-4.0
+keywords:
+  - cognitive landscape
+  - cognitive diversity
+  - dimensional modelling
+  - psychometrics
+  - research programme
+  - open science
+  - non-diagnostic assessment
+  - continuous traits
+preferred-citation:
+  type: report
+  title: Cognitive Landscape Research Programme (CLRP)
+  authors:
+    - name: Synaptic Four
+  year: 2026
+  institution: Synaptic Four
+  url: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
+  notes: >-
+    Cite the specific CLRP document (e.g. CLRP-003) and version when
+    referencing normative programme content. See docs/citation/citation-guide.md.

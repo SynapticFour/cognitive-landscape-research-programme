@@ -1,0 +1,69 @@
+# CLRP document catalog
+# Machine-readable index; update via PR when documents are published
+
+catalog-version: "1.0.0"
+programme: CLRP
+last-updated: "2026-07-07"
+
+releases:
+  - tag: clrp-v2026.1
+    status: planned
+    date: null
+    doi: null
+
+specifications:
+  - id: CLRP-000
+    title: Foundational Concepts
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-000-foundational-concepts.md
+  - id: CLRP-001
+    title: Discovering the Cognitive Landscape
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-001-discovering-the-cognitive-landscape.md
+  - id: CLRP-002
+    title: Vocabulary
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-002-vocabulary.md
+  - id: CLRP-003
+    title: Measurement Principles
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-003-measurement-principles.md
+  - id: CLRP-004
+    title: Epistemic Commitments
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-004-epistemic-commitments.md
+  - id: CLRP-005
+    title: Layer Separation
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-005-layer-separation.md
+  - id: CLRP-006
+    title: Evidence and Validation
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-006-evidence-and-validation.md
+  - id: CLRP-007
+    title: Non-Diagnostic Commitment
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-007-non-diagnostic-commitment.md
+  - id: CLRP-008
+    title: Cultural Adaptation
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-008-cultural-adaptation.md
+  - id: CLRP-009
+    title: Implementations and Conformance
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-009-implementations-and-conformance.md
+
+technical-reports: []
+research-notes: []
+validation-reports: []
+proposals: []

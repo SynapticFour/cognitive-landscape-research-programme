@@ -1,0 +1,37 @@
+---
+name: CLRP proposal
+description: Propose a programme extension or CLRP specification change
+title: "[CLRP-P] "
+labels:
+  - proposal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the [proposal template](../templates/proposal-template.md) for substantial changes.
+        For typos, open a PR directly.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One paragraph — what and why
+    validations:
+      required: true
+  - type: dropdown
+    id: target
+    attributes:
+      label: Target
+      options:
+        - New CLRP document
+        - Amendment to existing CLRP
+        - Validation / evidence
+        - Governance
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact on implementations
+      description: PCMS, CLM, other
+    validations:
+      required: false
