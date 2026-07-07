@@ -198,7 +198,8 @@ Reserved for programme growth without restructuring:
 
 | Extension | Location |
 |-----------|----------|
-| Zenodo DOI automation | `.github/workflows/`, `.zenodo.json` |
+| Link-check CI | `.github/workflows/link-check.yml`, `scripts/validate-catalog.py` |
+| Zenodo DOI automation | `.zenodo.json`, `docs/zenodo-integration.md` |
 | Document index CI | validates frontmatter, broken links |
 | Quarto PDF exports | optional `render/` directory |
 | Translations | `clrp/locale/` with attribution per CLRP-008 |
