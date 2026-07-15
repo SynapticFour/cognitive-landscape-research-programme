@@ -1,15 +1,15 @@
 ---
 clrp-id: CLRP-000
 title: Foundational Concepts
-version: 0.1.0
-status: Draft
-date: 2026-07-07
+version: 0.2.0
+status: Accepted
+date: 2026-07-15
 authors:
   - Synaptic Four
 license: CC-BY-4.0
 ---
 
-> **Status: Draft** — This document is work in progress and does not yet represent an accepted programme commitment.
+> **Status: Accepted** — This document represents an accepted programme commitment as of the stated version. Accepted directly during the initial single-steward phase of the programme (no separate Proposed comment period); the full Draft → Proposed → Accepted review cycle will apply once the steward group grows (see GOVERNANCE.md).
 
 # CLRP-000: Foundational Concepts
 
@@ -18,6 +18,10 @@ license: CC-BY-4.0
 The Cognitive Landscape Research Programme (CLRP) investigates human cognitive diversity using **continuous dimensional models** rather than categorical labels. Cognition is treated as **position and movement within a multidimensional landscape**—a metaphor with explicit mathematical and epistemic limits. This document states the programme's purpose, scope, and foundational commitments.
 
 ## 1. Purpose
+
+### 1.0 Motivation
+
+Human descriptions of cognitive difference have historically been categorical (temperaments, diagnoses, types) because categories are communicable and actionable, not because nature is organised that way. Wherever careful measurement has been possible, traits such as personality, intelligence, and temperament have turned out to vary continuously rather than in natural clusters. CLRP begins from a single question inherited from this history: **can human cognitive variation be represented in a way that reflects that continuity directly, rather than through the categorical compression the field inherited for practical reasons?** This is not a claim that current psychology, psychiatry, or neuroscience is mistaken—it is a research question worth organising a programme around.
 
 CLRP exists to:
 
@@ -28,15 +32,30 @@ CLRP exists to:
 
 CLRP does **not** exist to ship a product, provide clinical services, or certify individuals.
 
+### 1.1 Two foundational contributions
+
+CLRP rests on two contributions of equal standing:
+
+| Contribution | Answers | Developed in |
+|---|---|---|
+| **Landscape representation** | Why the programme exists — treating cognitive variation as continuous position and movement rather than category membership | §2 |
+| **Separation of claim-types** | How the programme had to be built once more than one discipline needed to describe the same landscape without collapsing into confusion | CLRP-004, CLRP-005 |
+
+The first is not prior to or more important than the second: a landscape representation that does not also separate description, mechanistic explanation, and interpretation reproduces the same category-confusion problem it was built to avoid, one layer up.
+
 ## 2. Core metaphor: the cognitive landscape
 
-### 2.1 What the metaphor claims
+### 2.1 Why geography, not just dimensions
+
+A category answers "what is this?"; a landscape answers "where is this?" That difference is not decorative. A category has no interior geography—membership is binary. A landscape has neighbourhoods, distances, gradients, and barriers, which makes a different family of questions askable: where is someone positioned; what neighbouring regions exist; which directions of change are stable; where are the barriers to a given transition; does an intervention change the landscape itself or only movement through it. CLRP's vocabulary (CLRP-002) borrows consistently from geography for this reason—it is a working representational language, not a one-time illustrative device.
+
+### 2.2 What the metaphor claims
 
 - Cognitive variation can be **represented** as coordinates in a continuous space.
 - Coordinates may **change over time** (trajectories), subject to measurement and modelling assumptions.
 - **Density and topology** language (peaks, valleys, paths) aids intuition but must map to explicit operational definitions when used normatively.
 
-### 2.2 What the metaphor does not claim
+### 2.3 What the metaphor does not claim
 
 - The landscape is not a literal neural map or neuroanatomical model.
 - Coordinates are not innate essences or fixed identities.
@@ -85,6 +104,10 @@ CLRP is **constitution**; implementations are **statutes and case law**:
 
 No implementation is authoritative for programme principles.
 
+### 5.1 Ontology, epistemology, implementation
+
+CLRP separates three layers that are easy to conflate: the landscape itself (**ontology**—what is there to be understood), the methods by which it is progressively characterised (**epistemology**—CLRP-001), and the computational models currently used to represent it (**implementation**—CLM, PCMS, and successors). An implementation improving is not a discovery about the landscape; a discovery about the landscape does not require any specific implementation to be correct. The programme is the enduring object across this separation; CLM and PCMS are not.
+
 ## 6. Audience
 
 - Researchers in differential psychology, psychometrics, cognitive science
@@ -115,6 +138,7 @@ See [open-questions/](../open-questions/README.md). Initial examples:
 | Version | Date | Status | Summary |
 |---------|------|--------|---------|
 | 0.1.0 | 2026-07-07 | Draft | Initial publication |
+| 0.2.0 | 2026-07-15 | Accepted | Added §1.0 motivation, §1.1 two foundational contributions, §2.1 why-geography rationale, §5.1 ontology/epistemology/implementation separation. Accepted directly during single-steward phase. |
 
 ## References
 

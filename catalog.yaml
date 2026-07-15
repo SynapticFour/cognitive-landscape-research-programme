@@ -3,7 +3,7 @@
 
 catalog-version: "1.0.0"
 programme: CLRP
-last-updated: "2026-07-07"
+last-updated: "2026-07-15"
 
 releases:
   - tag: clrp-v2026.1
@@ -17,18 +17,18 @@ releases:
 specifications:
   - id: CLRP-000
     title: Foundational Concepts
-    version: 0.1.0
-    status: Draft
+    version: 0.2.0
+    status: Accepted
     path: clrp/CLRP-000-foundational-concepts.md
   - id: CLRP-001
     title: Discovering the Cognitive Landscape
-    version: 0.1.0
-    status: Draft
+    version: 0.2.0
+    status: Accepted
     path: clrp/CLRP-001-discovering-the-cognitive-landscape.md
   - id: CLRP-002
     title: Vocabulary
-    version: 0.1.0
-    status: Draft
+    version: 0.2.0
+    status: Accepted
     path: clrp/CLRP-002-vocabulary.md
   - id: CLRP-003
     title: Measurement Principles
@@ -37,13 +37,13 @@ specifications:
     path: clrp/CLRP-003-measurement-principles.md
   - id: CLRP-004
     title: Epistemic Commitments
-    version: 0.1.0
-    status: Draft
+    version: 0.2.0
+    status: Accepted
     path: clrp/CLRP-004-epistemic-commitments.md
   - id: CLRP-005
     title: Layer Separation
-    version: 0.1.0
-    status: Draft
+    version: 0.2.0
+    status: Accepted
     path: clrp/CLRP-005-layer-separation.md
   - id: CLRP-006
     title: Evidence and Validation

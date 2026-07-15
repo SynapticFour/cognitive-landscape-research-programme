@@ -1,15 +1,15 @@
 ---
 clrp-id: CLRP-004
 title: Epistemic Commitments
-version: 0.1.0
-status: Draft
-date: 2026-07-07
+version: 0.2.0
+status: Accepted
+date: 2026-07-15
 authors:
   - Synaptic Four
 license: CC-BY-4.0
 ---
 
-> **Status: Draft** — This document is work in progress and does not yet represent an accepted programme commitment.
+> **Status: Accepted** — This document represents an accepted programme commitment as of the stated version. Accepted directly during the initial single-steward phase of the programme (no separate Proposed comment period); the full Draft → Proposed → Accepted review cycle will apply once the steward group grows (see GOVERNANCE.md).
 
 # CLRP-004: Epistemic Commitments
 
@@ -69,6 +69,14 @@ CLRP does **not** assume:
 - Western-derived constructs universal without adaptation
 - More dimensions are always better
 - Simulation parameters identify real-world causal mechanisms
+- Cognition can be completely reduced to mathematics, or that a coordinate representation exhausts what a person is
+- Every meaningful aspect of human experience is measurable, or that what is not currently measurable is thereby unreal
+- The current landscape representation is the only possible one—it is one workable choice, open to revision or replacement
+- Future computational models must resemble any current implementation (e.g. CLM) in their specific mechanics
+- Empirical success of a model validates, confirms, or lends evidential support to any particular metaphysical or worldview position (see CLRP-005 §5 on interpretation)
+- A satisfying interpretation of a pattern is grounds to relax empirical standards for it
+- Empirical findings can resolve metaphysical questions, or that the coexistence of measurement and interpretation layers implies either can settle questions belonging to the other
+- Any implementation, representation, or measurement system currently in use should be regarded as definitive rather than provisional
 
 ## 6. Intellectual honesty requirements
 
@@ -84,6 +92,7 @@ Authors must:
 | Version | Date | Status | Summary |
 |---------|------|--------|---------|
 | 0.1.0 | 2026-07-07 | Draft | Initial publication |
+| 0.2.0 | 2026-07-15 | Accepted | Extended §5 explicit non-assumptions with eight additional items covering representational pluralism, worldview/validation independence, and provisionality of current implementations. Accepted directly during single-steward phase. |
 
 ## References
 

@@ -1,15 +1,15 @@
 ---
 clrp-id: CLRP-005
 title: Layer Separation
-version: 0.1.0
-status: Draft
-date: 2026-07-07
+version: 0.2.0
+status: Accepted
+date: 2026-07-15
 authors:
   - Synaptic Four
 license: CC-BY-4.0
 ---
 
-> **Status: Draft** — This document is work in progress and does not yet represent an accepted programme commitment.
+> **Status: Accepted** — This document represents an accepted programme commitment as of the stated version. Accepted directly during the initial single-steward phase of the programme (no separate Proposed comment period); the full Draft → Proposed → Accepted review cycle will apply once the steward group grows (see GOVERNANCE.md).
 
 # CLRP-005: Layer Separation
 
@@ -90,7 +90,13 @@ Layer violations correlate with:
 
 See [CLRP-007](CLRP-007-non-diagnostic-commitment.md).
 
-## 5. Non-goals
+## 5. Worked example: worldview interpretation frames
+
+R1–R3 are not only policy; they are enforced as software architecture in the CLM implementation's `@clm/interpretation` package, which is illustrative for any implementation claiming CLRP-005 conformance. That package offers three interpretation frames—`scientific-psychological`, `systems-theory`, and `christian-theological`—all read-only consumers of measurement output, none able to modify description or explanation, and none importable by measurement-layer packages (enforced by boundary tests).
+
+The `christian-theological` frame is a useful worked example because it makes the general rule concrete: within that worldview, a person's coordinates may be read in terms of finitude, vocation, and wisdom. This reading does not modify the underlying coordinates, is not offered as a competing causal explanation for why a coordinate changed, and is not required or assumed by any other layer. A different implementation might offer a different or no theological frame; CLRP-005 does not mandate which worldview frames exist, only that any frame that does exist obeys R1–R3. This document does not develop the content of any worldview frame further—that belongs to the implementation or to dedicated documents outside the CLRP core series—it states only where such content is permitted to sit.
+
+## 6. Non-goals
 
 - Mandating specific package names or programming patterns
 - Prohibiting optional bundling of layers at **application** boundary (with clear labelling)
@@ -100,6 +106,7 @@ See [CLRP-007](CLRP-007-non-diagnostic-commitment.md).
 | Version | Date | Status | Summary |
 |---------|------|--------|---------|
 | 0.1.0 | 2026-07-07 | Draft | Initial publication |
+| 0.2.0 | 2026-07-15 | Accepted | Added §5 worked example (worldview interpretation frames, incl. theological frame), renumbered former §5 Non-goals to §6. Accepted directly during single-steward phase. |
 
 ## References
 

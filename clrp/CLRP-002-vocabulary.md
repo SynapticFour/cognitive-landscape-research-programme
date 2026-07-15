@@ -1,15 +1,15 @@
 ---
 clrp-id: CLRP-002
 title: Vocabulary
-version: 0.1.0
-status: Draft
-date: 2026-07-07
+version: 0.2.0
+status: Accepted
+date: 2026-07-15
 authors:
   - Synaptic Four
 license: CC-BY-4.0
 ---
 
-> **Status: Draft** — This document is work in progress and does not yet represent an accepted programme commitment.
+> **Status: Accepted** — This document represents an accepted programme commitment as of the stated version. Accepted directly during the initial single-steward phase of the programme (no separate Proposed comment period); the full Draft → Proposed → Accepted review cycle will apply once the steward group grows (see GOVERNANCE.md).
 
 # CLRP-002: Vocabulary
 
@@ -67,6 +67,42 @@ A **language–culture deployment context** (not ISO language code alone). Norms
 
 A testable declaration that an implementation satisfies specified CLRP documents at stated versions.
 
+### Feedback loop
+
+A directed relationship in which change in one dimension influences another, which in turn influences the first, either amplifying or stabilising the pattern. Governs how coordinates change under the dynamics layer (CLRP-005).
+
+### Attractor
+
+A region of the state space toward which trajectories tend to converge under a model's dynamics. Describes a stable configuration, not a fixed destiny.
+
+### Basin
+
+The set of starting coordinates that converge toward a given attractor under a model's dynamics.
+
+### Stability / instability
+
+Descriptive, dynamical properties of a trajectory or region—how strongly the system resists or amplifies perturbation. **Not** a value judgment; stability is not "healthy" and instability is not "pathological."
+
+### Similarity / distance
+
+Formal relationships between two coordinates or trajectories, used to compare individuals or track change without invoking categorical sameness or difference.
+
+### Calibration
+
+The process of fitting structural parameters to observed patterns—a soft, regularised fit to design- and literature-informed priors, not discovery of a ground-truth latent trait.
+
+### Ontology
+
+A claim about what kind of thing something ultimately is (e.g. what a person fundamentally is). Ontological claims belong to the interpretation layer (CLRP-005), never to measurement.
+
+### Worldview
+
+A coherent set of ontological and value commitments (e.g. scientific-materialist, systems-theoretic, theological) through which interpretation occurs. The programme accommodates multiple worldviews without adjudicating between them.
+
+### Intervention
+
+An action intended to change a person's trajectory or position, evaluated against the landscape and dynamics (which feedback loop is targeted, which trajectory is intended)—not framed only as treatment for a named category.
+
 ## 2. Reserved terms (do not overload)
 
 | Term | Reserved meaning |
@@ -102,6 +138,7 @@ Submit a PR amending this document or a [proposal](../proposals/README.md). Term
 | Version | Date | Status | Summary |
 |---------|------|--------|---------|
 | 0.1.0 | 2026-07-07 | Draft | Initial controlled vocabulary |
+| 0.2.0 | 2026-07-15 | Accepted | Added: feedback loop, attractor, basin, stability/instability, similarity/distance, calibration, ontology, worldview, intervention. Accepted directly during single-steward phase. |
 
 ## References
 

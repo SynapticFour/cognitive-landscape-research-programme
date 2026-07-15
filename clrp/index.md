@@ -6,12 +6,12 @@ Canonical index of **CLRP-NNN** programme documents. For lifecycle rules see [do
 
 | ID | Title | Version | Status | File |
 |----|-------|---------|--------|------|
-| CLRP-000 | Foundational Concepts | 0.1.0 | Draft | [CLRP-000-foundational-concepts.md](CLRP-000-foundational-concepts.md) |
-| CLRP-001 | Discovering the Cognitive Landscape | 0.1.0 | Draft | [CLRP-001-discovering-the-cognitive-landscape.md](CLRP-001-discovering-the-cognitive-landscape.md) |
-| CLRP-002 | Vocabulary | 0.1.0 | Draft | [CLRP-002-vocabulary.md](CLRP-002-vocabulary.md) |
+| CLRP-000 | Foundational Concepts | 0.2.0 | Accepted | [CLRP-000-foundational-concepts.md](CLRP-000-foundational-concepts.md) |
+| CLRP-001 | Discovering the Cognitive Landscape | 0.2.0 | Accepted | [CLRP-001-discovering-the-cognitive-landscape.md](CLRP-001-discovering-the-cognitive-landscape.md) |
+| CLRP-002 | Vocabulary | 0.2.0 | Accepted | [CLRP-002-vocabulary.md](CLRP-002-vocabulary.md) |
 | CLRP-003 | Measurement Principles | 0.1.0 | Draft | [CLRP-003-measurement-principles.md](CLRP-003-measurement-principles.md) |
-| CLRP-004 | Epistemic Commitments | 0.1.0 | Draft | [CLRP-004-epistemic-commitments.md](CLRP-004-epistemic-commitments.md) |
-| CLRP-005 | Layer Separation | 0.1.0 | Draft | [CLRP-005-layer-separation.md](CLRP-005-layer-separation.md) |
+| CLRP-004 | Epistemic Commitments | 0.2.0 | Accepted | [CLRP-004-epistemic-commitments.md](CLRP-004-epistemic-commitments.md) |
+| CLRP-005 | Layer Separation | 0.2.0 | Accepted | [CLRP-005-layer-separation.md](CLRP-005-layer-separation.md) |
 | CLRP-006 | Evidence and Validation | 0.1.0 | Draft | [CLRP-006-evidence-and-validation.md](CLRP-006-evidence-and-validation.md) |
 | CLRP-007 | Non-Diagnostic Commitment | 0.1.0 | **Proposed** (review until 2026-07-21) | [CLRP-007-non-diagnostic-commitment.md](CLRP-007-non-diagnostic-commitment.md) |
 | CLRP-008 | Cultural Adaptation | 0.1.0 | Draft | [CLRP-008-cultural-adaptation.md](CLRP-008-cultural-adaptation.md) |
@@ -43,4 +43,4 @@ To request an ID, open a PR or issue referencing [CONTRIBUTING.md](../CONTRIBUTI
 
 ---
 
-*Last updated: 2026-07-07*
+*Last updated: 2026-07-15*

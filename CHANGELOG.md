@@ -7,6 +7,14 @@ CLRP specification documents maintain their own revision history; this file trac
 
 ## [Unreleased]
 
+### Changed
+
+- **CLRP-000** v0.2.0 (2026-07-15, Accepted) — Added §1.0 motivation, §1.1 two foundational contributions, §2.1 why-geography rationale, §5.1 ontology/epistemology/implementation separation. Accepted directly during single-steward phase.
+- **CLRP-001** v0.2.0 (2026-07-15, Accepted) — Added §1.3 (programme vs. model), new §2 (landscape discovery vs. model validation with attribution rule), restructured §3 around five explanatory layers, extended §5 and §6 accordingly. Accepted directly during single-steward phase.
+- **CLRP-002** v0.2.0 (2026-07-15, Accepted) — Added: feedback loop, attractor, basin, stability/instability, similarity/distance, calibration, ontology, worldview, intervention. Accepted directly during single-steward phase.
+- **CLRP-004** v0.2.0 (2026-07-15, Accepted) — Extended §5 explicit non-assumptions with eight additional items covering representational pluralism, worldview/validation independence, and provisionality of current implementations. Accepted directly during single-steward phase.
+- **CLRP-005** v0.2.0 (2026-07-15, Accepted) — Added §5 worked example (worldview interpretation frames, incl. theological frame), renumbered former §5 Non-goals to §6. Accepted directly during single-steward phase.
+
 ### Added
 
 - Zenodo DOIs for `clrp-v2026.1` (version `10.5281/zenodo.21236100`, concept `10.5281/zenodo.21236099`)
@@ -47,6 +55,11 @@ Status changes for individual CLRP documents are recorded in each document's rev
 
 | Date | Document | Change |
 |------|----------|--------|
+| 2026-07-15 | CLRP-000 | Draft → Accepted v0.2.0 (accepted directly during single-steward phase) |
+| 2026-07-15 | CLRP-001 | Draft → Accepted v0.2.0 (accepted directly during single-steward phase) |
+| 2026-07-15 | CLRP-002 | Draft → Accepted v0.2.0 (accepted directly during single-steward phase) |
+| 2026-07-15 | CLRP-004 | Draft → Accepted v0.2.0 (accepted directly during single-steward phase) |
+| 2026-07-15 | CLRP-005 | Draft → Accepted v0.2.0 (accepted directly during single-steward phase) |
 | 2026-07-07 | CLRP-007 | Draft → Proposed (review until 2026-07-21) |
 | 2026-07-07 | CLRP-000 – CLRP-009 | Created as Draft |
 | 2026-07-07 | GOVERNANCE.md | Accepted v1.0.0 |
