@@ -7,17 +7,38 @@ CLRP specification documents maintain their own revision history; this file trac
 
 ## [Unreleased]
 
-### Changed
+## [clrp-v2026.2] - 2026-07-16
 
-- **CLRP-000** v0.2.0 (2026-07-15, Accepted) — Added §1.0 motivation, §1.1 two foundational contributions, §2.1 why-geography rationale, §5.1 ontology/epistemology/implementation separation. Accepted directly during single-steward phase.
-- **CLRP-001** v0.2.0 (2026-07-15, Accepted) — Added §1.3 (programme vs. model), new §2 (landscape discovery vs. model validation with attribution rule), restructured §3 around five explanatory layers, extended §5 and §6 accordingly. Accepted directly during single-steward phase.
-- **CLRP-002** v0.2.0 (2026-07-15, Accepted) — Added: feedback loop, attractor, basin, stability/instability, similarity/distance, calibration, ontology, worldview, intervention. Accepted directly during single-steward phase.
-- **CLRP-004** v0.2.0 (2026-07-15, Accepted) — Extended §5 explicit non-assumptions with eight additional items covering representational pluralism, worldview/validation independence, and provisionality of current implementations. Accepted directly during single-steward phase.
-- **CLRP-005** v0.2.0 (2026-07-15, Accepted) — Added §5 worked example (worldview interpretation frames, incl. theological frame), renumbered former §5 Non-goals to §6. Accepted directly during single-steward phase.
+Repository-wide snapshot. Individual document status (Draft / Proposed / Accepted) remains authoritative per document—see each document's front matter and revision history.
+
+### Changed — Accepted in this release
+
+- **CLRP-000** v0.2.0 (Accepted) — Added §1.0 motivation, §1.1 two foundational contributions, §2.1 why-geography rationale, §5.1 ontology/epistemology/implementation separation. Accepted directly during single-steward phase.
+- **CLRP-001** v0.2.0 (Accepted) — Added §1.3 (programme vs. model), new §2 (landscape discovery vs. model validation with attribution rule), restructured §3 around five explanatory layers, extended §5 and §6 accordingly. Accepted directly during single-steward phase.
+- **CLRP-002** v0.2.0 (Accepted) — Added: feedback loop, attractor, basin, stability/instability, similarity/distance, calibration, ontology, worldview, intervention. Accepted directly during single-steward phase.
+- **CLRP-004** v0.2.0 (Accepted) — Extended §5 explicit non-assumptions with eight additional items covering representational pluralism, worldview/validation independence, and provisionality of current implementations. Accepted directly during single-steward phase.
+- **CLRP-005** v0.2.0 (Accepted) — Added §5 worked example (worldview interpretation frames, incl. theological frame), renumbered former §5 Non-goals to §6. Accepted directly during single-steward phase.
+
+### Document status at release (unchanged unless noted above)
+
+| ID | Version | Status | Notes |
+|----|---------|--------|-------|
+| CLRP-000 | 0.2.0 | **Accepted** | Changed in this release |
+| CLRP-001 | 0.2.0 | **Accepted** | Changed in this release |
+| CLRP-002 | 0.2.0 | **Accepted** | Changed in this release |
+| CLRP-003 | 0.1.0 | Draft | Unchanged |
+| CLRP-004 | 0.2.0 | **Accepted** | Changed in this release |
+| CLRP-005 | 0.2.0 | **Accepted** | Changed in this release |
+| CLRP-006 | 0.1.0 | Draft | Unchanged |
+| CLRP-007 | 0.1.0 | Proposed | Unchanged (comment period until 2026-07-21) |
+| CLRP-008 | 0.1.0 | Draft | Unchanged |
+| CLRP-009 | 0.1.0 | Draft | Unchanged |
+| CLRP-VR-2026-001 | 0.1.0 | Draft | Unchanged |
+| CLRP-VR-2026-002 | 0.1.0 | Draft | Unchanged |
 
 ### Added
 
-- Zenodo DOIs for `clrp-v2026.1` (version `10.5281/zenodo.21236100`, concept `10.5281/zenodo.21236099`)
+- GitHub Release [clrp-v2026.2](https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.2)
 
 ## [clrp-v2026.1] - 2026-07-07
 
@@ -66,4 +87,5 @@ Status changes for individual CLRP documents are recorded in each document's rev
 
 ---
 
-[Unreleased]: https://github.com/SynapticFour/cognitive-landscape-research-programme/compare/clrp-v2026.1...main
+[Unreleased]: https://github.com/SynapticFour/cognitive-landscape-research-programme/compare/clrp-v2026.2...main
+[clrp-v2026.2]: https://github.com/SynapticFour/cognitive-landscape-research-programme/compare/clrp-v2026.1...clrp-v2026.2
