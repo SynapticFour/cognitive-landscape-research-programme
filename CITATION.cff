@@ -10,7 +10,7 @@ authors:
   - name: Synaptic Four
     affiliation: Synaptic Four
 repository-code: 'https://github.com/SynapticFour/cognitive-landscape-research-programme'
-url: 'https://doi.org/10.5281/zenodo.21236100'
+url: 'https://doi.org/10.5281/zenodo.21389829'
 license: CC-BY-4.0
 keywords:
   - cognitive landscape
@@ -28,9 +28,9 @@ preferred-citation:
     - name: Synaptic Four
   year: 2026
   institution: Synaptic Four
-  version: clrp-v2026.1
-  doi: 10.5281/zenodo.21236100
-  url: 'https://doi.org/10.5281/zenodo.21236100'
+  version: clrp-v2026.2
+  doi: 10.5281/zenodo.21389829
+  url: 'https://doi.org/10.5281/zenodo.21389829'
   notes: >-
     Concept DOI (all versions): 10.5281/zenodo.21236099. Cite the specific
     CLRP document (e.g. CLRP-003) and version when referencing normative

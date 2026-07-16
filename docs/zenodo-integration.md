@@ -70,5 +70,6 @@ Manual upload alternative: create a deposition at https://zenodo.org/deposit/new
 | Release | Version DOI | Concept DOI | Zenodo record |
 |---------|-------------|-------------|---------------|
 | `clrp-v2026.1` | [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) | [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) | [21236100](https://zenodo.org/records/21236100) |
+| `clrp-v2026.2` | [10.5281/zenodo.21389829](https://doi.org/10.5281/zenodo.21389829) | [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) | [21389829](https://zenodo.org/records/21389829) |
 
 Future releases: Zenodo creates a new version under the same concept DOI when GitHub Releases are published.

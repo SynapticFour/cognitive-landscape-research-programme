@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Documentation: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey.svg)](LICENSE-docs)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21236100.svg)](https://doi.org/10.5281/zenodo.21236100)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21389829.svg)](https://doi.org/10.5281/zenodo.21389829)
 
 ---
 
@@ -117,7 +117,7 @@ Rationale: [docs/README.md](docs/README.md#licensing-rationale)
 
 To cite the programme as a whole, use [CITATION.cff](CITATION.cff). To cite a specific document, use its document ID, version, and release DOI when available. See [docs/citation/citation-guide.md](docs/citation/citation-guide.md).
 
-**Latest release:** [clrp-v2026.1](https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1) · **DOI:** [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) · Concept DOI: [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099)
+**Latest release:** [clrp-v2026.2](https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.2) · **DOI:** [10.5281/zenodo.21389829](https://doi.org/10.5281/zenodo.21389829) · Concept DOI: [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099)
 
 ## Governance and contact
 

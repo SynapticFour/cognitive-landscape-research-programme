@@ -45,27 +45,27 @@ Also see root [CITATION.cff](../../CITATION.cff) for machine-readable metadata.
 When citing a frozen programme state (recommended for reproducibility):
 
 ```bibtex
-@misc{clrp2026_1,
+@misc{clrp2026_2,
   author       = {{Synaptic Four}},
   title        = {Cognitive Landscape Research Programme ({CLRP})},
   year         = {2026},
-  version      = {clrp-v2026.1},
+  version      = {clrp-v2026.2},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21236100},
-  url          = {https://doi.org/10.5281/zenodo.21236100}
+  doi          = {10.5281/zenodo.21389829},
+  url          = {https://doi.org/10.5281/zenodo.21389829}
 }
 ```
 
 **APA:**
 
-> Synaptic Four. (2026). *Cognitive Landscape Research Programme (CLRP)* (Version clrp-v2026.1). Zenodo. https://doi.org/10.5281/zenodo.21236100
+> Synaptic Four. (2026). *Cognitive Landscape Research Programme (CLRP)* (Version clrp-v2026.2). Zenodo. https://doi.org/10.5281/zenodo.21389829
 
 | DOI | Use when |
 |-----|----------|
-| [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) | Citing **this** release (`clrp-v2026.1`) |
+| [10.5281/zenodo.21389829](https://doi.org/10.5281/zenodo.21389829) | Citing **this** release (`clrp-v2026.2`) |
 | [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) | Citing the programme **in general** (always resolves to latest) |
 
-GitHub tag (alternative): https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1
+GitHub tag (alternative): https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.2
 
 ## 3. Citing a CLRP specification
 
@@ -132,8 +132,8 @@ In code provenance metadata:
 ```json
 {
   "programme": "CLRP",
-  "clrpRelease": "clrp-v2026.1",
-  "clrpDoi": "10.5281/zenodo.21236100",
+  "clrpRelease": "clrp-v2026.2",
+  "clrpDoi": "10.5281/zenodo.21389829",
   "clrpDocuments": [
     {"id": "CLRP-003", "version": "1.0.0"},
     {"id": "CLRP-007", "version": "1.0.0"}
@@ -186,6 +186,7 @@ Always pin to a **tag or commit**, not `main`, in reproducible research.
 |----------|-----|
 | Programme releases | Version DOI per release + [concept DOI 10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099) |
 | `clrp-v2026.1` | [10.5281/zenodo.21236100](https://doi.org/10.5281/zenodo.21236100) |
+| `clrp-v2026.2` | [10.5281/zenodo.21389829](https://doi.org/10.5281/zenodo.21389829) |
 | Individual CLRP specs | Included in release archive; optional standalone deposit for major specs |
 | CLRP-TR / CLRP-VR | Encouraged per report via Zenodo or journal DOI |
 

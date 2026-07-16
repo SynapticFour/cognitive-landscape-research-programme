@@ -3,7 +3,7 @@
 
 catalog-version: "1.0.0"
 programme: CLRP
-last-updated: "2026-07-15"
+last-updated: "2026-07-16"
 
 releases:
   - tag: clrp-v2026.1
@@ -13,6 +13,13 @@ releases:
     concept_doi: "10.5281/zenodo.21236099"
     zenodo_record: "https://zenodo.org/records/21236100"
     github_release: https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.1
+  - tag: clrp-v2026.2
+    status: published
+    date: "2026-07-16"
+    doi: "10.5281/zenodo.21389829"
+    concept_doi: "10.5281/zenodo.21236099"
+    zenodo_record: "https://zenodo.org/records/21389829"
+    github_release: https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.2
 
 specifications:
   - id: CLRP-000
