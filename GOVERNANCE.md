@@ -55,6 +55,23 @@ Academic collaborators, ethics boards, and funders may comment during **Proposed
 - **Normative changes** (principles, definitions, non-diagnostic commitment): at least **14 days** in Proposed state; objections must be addressed in writing (in PR or linked issue).
 - **Recorded dissent:** If a steward merges despite sustained objection, the dissenting view may be appended to the document's revision history or linked from [open-questions/](open-questions/).
 
+## Process exceptions log
+
+Recorded departures from the default lifecycle (Draft → Proposed → Accepted).
+Each entry links to the authoritative record in the affected document(s) and
+[CHANGELOG.md](CHANGELOG.md).
+
+| Date | Documents | Departure | Rationale | Record |
+|------|-----------|-----------|-----------|--------|
+| 2026-07-15 | CLRP-000, CLRP-001, CLRP-002, CLRP-004, CLRP-005 | Draft → **Accepted** v0.2.0 (skipped Proposed comment period) | Initial single-steward phase; steward group not yet multi-person; changes were editorial expansion of existing Draft content, not new normative boundaries | Per-document status callout and revision history; [clrp-v2026.2] in CHANGELOG |
+
+**Standing rule:** Direct Draft → Accepted transitions are permitted only while the
+programme has a **single designated steward** and must be logged here and in
+CHANGELOG before merge. Once multiple stewards are appointed, the full Proposed
+review period applies unless this log is amended via the GOVERNANCE amendment process.
+
+[clrp-v2026.2]: CHANGELOG.md#clrp-v20262---2026-07-16
+
 ## Relationship to implementations
 
 ```
