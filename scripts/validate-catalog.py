@@ -13,6 +13,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog.yaml"
+RESEARCH_NOTE_STATUSES = {"Exploratory", "Superseded", "Accepted-into-spec"}
 
 
 def main() -> int:
@@ -40,6 +41,21 @@ def main() -> int:
         if not path.is_file():
             errors.append(f"Specification file not found: {spec.get('path')}")
 
+    note_ids: set[str] = set()
+    for note in data.get("research-notes", []):
+        for field in ("id", "title", "date", "status", "path"):
+            if field not in note:
+                errors.append(f"Research note missing '{field}': {note}")
+        nid = note.get("id", "")
+        if nid in note_ids:
+            errors.append(f"Duplicate research note id: {nid}")
+        note_ids.add(nid)
+        if note.get("status") not in RESEARCH_NOTE_STATUSES:
+            errors.append(f"Invalid research note status: {note.get('status')}")
+        path = ROOT / note.get("path", "")
+        if not path.is_file():
+            errors.append(f"Research note file not found: {note.get('path')}")
+
     for release in data.get("releases", []):
         tag = release.get("tag")
         if not tag:
@@ -61,7 +77,8 @@ def main() -> int:
 
     print(
         f"OK: catalog v{data.get('catalog-version')} — "
-        f"{len(spec_ids)} specifications, {len(data.get('releases', []))} releases"
+        f"{len(spec_ids)} specifications, {len(data.get('releases', []))} releases, "
+        f"{len(note_ids)} research-notes"
     )
     return 0
 
