@@ -80,7 +80,12 @@ specifications:
     path: clrp/CLRP-010-structural-theory-geology-of-the-landscape.md
 
 technical-reports: []
-research-notes: []
+research-notes:
+  - id: CLRP-RN-2026-001
+    title: Emergent topology derivation (CLM design)
+    date: "2026-07-20"
+    status: Exploratory
+    path: research-notes/CLRP-RN-2026-001-emergent-topology-derivation.md
 validation-reports:
   - id: CLRP-VR-2026-001
     title: PCMS Instrument Validation Status
