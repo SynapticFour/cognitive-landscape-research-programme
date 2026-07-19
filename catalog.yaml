@@ -3,7 +3,7 @@
 
 catalog-version: "1.0.0"
 programme: CLRP
-last-updated: "2026-07-16"
+last-updated: "2026-07-20"
 
 releases:
   - tag: clrp-v2026.1
@@ -73,6 +73,11 @@ specifications:
     version: 0.1.0
     status: Draft
     path: clrp/CLRP-009-implementations-and-conformance.md
+  - id: CLRP-010
+    title: Structural Theory (Geology of the Landscape)
+    version: 0.1.0
+    status: Draft
+    path: clrp/CLRP-010-structural-theory-geology-of-the-landscape.md
 
 technical-reports: []
 research-notes: []

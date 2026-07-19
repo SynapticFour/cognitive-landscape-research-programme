@@ -16,6 +16,7 @@ Canonical index of **CLRP-NNN** programme documents. For lifecycle rules see [do
 | CLRP-007 | Non-Diagnostic Commitment | 0.1.0 | **Proposed** (review until 2026-07-21) | [CLRP-007-non-diagnostic-commitment.md](CLRP-007-non-diagnostic-commitment.md) |
 | CLRP-008 | Cultural Adaptation | 0.1.0 | Draft | [CLRP-008-cultural-adaptation.md](CLRP-008-cultural-adaptation.md) |
 | CLRP-009 | Implementations and Conformance | 0.1.0 | Draft | [CLRP-009-implementations-and-conformance.md](CLRP-009-implementations-and-conformance.md) |
+| CLRP-010 | Structural Theory (Geology of the Landscape) | 0.1.0 | Draft | [CLRP-010-structural-theory-geology-of-the-landscape.md](CLRP-010-structural-theory-geology-of-the-landscape.md) |
 
 ## Reserved ranges
 
@@ -27,7 +28,7 @@ Canonical index of **CLRP-NNN** programme documents. For lifecycle rules see [do
 
 ## Next available ID
 
-**CLRP-010** (unassigned)
+**CLRP-011** (unassigned)
 
 To request an ID, open a PR or issue referencing [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -43,4 +44,4 @@ To request an ID, open a PR or issue referencing [CONTRIBUTING.md](../CONTRIBUTI
 
 ---
 
-*Last updated: 2026-07-15*
+*Last updated: 2026-07-20*

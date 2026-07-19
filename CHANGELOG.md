@@ -7,6 +7,10 @@ CLRP specification documents maintain their own revision history; this file trac
 
 ## [Unreleased]
 
+### Added
+
+- **CLRP-010** v0.1.0 (Draft) — Structural Theory (Geology of the Landscape)
+
 ## [clrp-v2026.2] - 2026-07-16
 
 Repository-wide snapshot. Individual document status (Draft / Proposed / Accepted) remains authoritative per document—see each document's front matter and revision history.
