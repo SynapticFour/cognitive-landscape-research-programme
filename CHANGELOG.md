@@ -10,6 +10,7 @@ CLRP specification documents maintain their own revision history; this file trac
 ### Added
 
 - **CLRP-010** v0.1.0 (Draft) — Structural Theory (Geology of the Landscape)
+- **CLRP-RN-2026-001** — Emergent topology derivation (CLM design note for CLRP-010 §2)
 
 ## [clrp-v2026.2] - 2026-07-16
 

@@ -56,7 +56,7 @@ Given a `StructuralModel` (latent parameters + probabilistic influence fields, `
 3. Relaxing many seeded initial states forward under the feedback graph's dynamics until convergence (or a step budget is exhausted).
 4. Clustering the converged end-states across samples; each sufficiently supported cluster is an **emergent attractor**, with its basin support given by the fraction of samples that converged to it.
 
-This treats topology as **probabilistic and sample-based**, consistent with CLRP-001's Topology layer methodology and with CLRP-004's commitment that structural parameters are working hypotheses, not discovered ground truth. See the companion implementation note in `@clm/dynamics` (`emergent-topology`) for the computational design.
+This treats topology as **probabilistic and sample-based**, consistent with CLRP-001's Topology layer methodology and with CLRP-004's commitment that structural parameters are working hypotheses, not discovered ground truth. See the companion implementation design ([CLRP-RN-2026-001](../research-notes/CLRP-RN-2026-001-emergent-topology-derivation.md); target module `@clm/dynamics` `emergent-topology`) for the computational design.
 
 ## 3. What this layer does not claim
 
@@ -70,7 +70,7 @@ This treats topology as **probabilistic and sample-based**, consistent with CLRP
 
 - `@clm/structural`: `LatentParameter`, `ProbabilisticInfluence`, `StructuralModel` — the geology.
 - `@clm/dynamics`: `FeedbackGraph`, `AttractorState`, `structural-modulation.ts` — the dynamics, and the existing bridge from structure into dynamics.
-- The derivation in §2 is new work; as of this version, `AttractorState` values in `@clm/dynamics` are still authored by hand rather than derived (see the companion design note for the proposed `emergent-topology` module that closes this gap).
+- The derivation in §2 is new work; as of this version, `AttractorState` values in `@clm/dynamics` are still authored by hand rather than derived (see [CLRP-RN-2026-001](../research-notes/CLRP-RN-2026-001-emergent-topology-derivation.md) for the proposed `emergent-topology` module that closes this gap).
 
 ## 5. Non-goals
 
