@@ -86,6 +86,11 @@ research-notes:
     date: "2026-07-20"
     status: Exploratory
     path: research-notes/CLRP-RN-2026-001-emergent-topology-derivation.md
+  - id: CLRP-RN-2026-002
+    title: Latent parameter measurement and geology/environment framing
+    date: "2026-07-20"
+    status: Exploratory
+    path: research-notes/CLRP-RN-2026-002-latent-parameter-measurement.md
 validation-reports:
   - id: CLRP-VR-2026-001
     title: PCMS Instrument Validation Status

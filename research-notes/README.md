@@ -28,3 +28,4 @@ Notes are **not deleted** when superseded; mark status in header and link forwar
 | ID | Title | Date | Status |
 |----|-------|------|--------|
 | CLRP-RN-2026-001 | [Emergent topology derivation (CLM design)](CLRP-RN-2026-001-emergent-topology-derivation.md) | 2026-07-20 | Exploratory |
+| CLRP-RN-2026-002 | [Latent parameter measurement and geology/environment framing](CLRP-RN-2026-002-latent-parameter-measurement.md) | 2026-07-20 | Exploratory |
