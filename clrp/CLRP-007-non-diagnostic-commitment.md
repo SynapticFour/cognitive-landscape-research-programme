@@ -11,7 +11,7 @@ authors:
 license: CC-BY-4.0
 ---
 
-> **Status: Proposed** — Ready for review. Comment period open until **2026-07-21**. See [active reviews](../docs/governance/active-reviews.md).
+> **Status: Proposed** — Comment period closed **2026-07-21**. Document remains Proposed pending steward disposition. Comments still welcome via GitHub Issues. See [active reviews](../docs/governance/active-reviews.md).
 
 # CLRP-007: Non-Diagnostic Commitment
 
@@ -75,6 +75,7 @@ Report ethical misuse to [contact@synapticfour.com](mailto:contact@synapticfour.
 
 | Version | Date | Status | Summary |
 |---------|------|--------|---------|
+| 0.1.0 | 2026-07-25 | Proposed | Comment period closed 2026-07-21; disposition pending |
 | 0.1.0 | 2026-07-07 | Proposed | Open for review until 2026-07-21 |
 | 0.1.0 | 2026-07-07 | Draft | Initial publication |
 

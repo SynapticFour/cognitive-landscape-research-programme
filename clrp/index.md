@@ -13,7 +13,7 @@ Canonical index of **CLRP-NNN** programme documents. For lifecycle rules see [do
 | CLRP-004 | Epistemic Commitments | 0.2.0 | Accepted | [CLRP-004-epistemic-commitments.md](CLRP-004-epistemic-commitments.md) |
 | CLRP-005 | Layer Separation | 0.2.0 | Accepted | [CLRP-005-layer-separation.md](CLRP-005-layer-separation.md) |
 | CLRP-006 | Evidence and Validation | 0.1.0 | Draft | [CLRP-006-evidence-and-validation.md](CLRP-006-evidence-and-validation.md) |
-| CLRP-007 | Non-Diagnostic Commitment | 0.1.0 | **Proposed** (review until 2026-07-21) | [CLRP-007-non-diagnostic-commitment.md](CLRP-007-non-diagnostic-commitment.md) |
+| CLRP-007 | Non-Diagnostic Commitment | 0.1.0 | **Proposed** (comment period closed 2026-07-21; disposition pending) | [CLRP-007-non-diagnostic-commitment.md](CLRP-007-non-diagnostic-commitment.md) |
 | CLRP-008 | Cultural Adaptation | 0.1.0 | Draft | [CLRP-008-cultural-adaptation.md](CLRP-008-cultural-adaptation.md) |
 | CLRP-009 | Implementations and Conformance | 0.1.0 | Draft | [CLRP-009-implementations-and-conformance.md](CLRP-009-implementations-and-conformance.md) |
 | CLRP-010 | Structural Theory (Geology of the Landscape) | 0.1.0 | Draft | [CLRP-010-structural-theory-geology-of-the-landscape.md](CLRP-010-structural-theory-geology-of-the-landscape.md) |

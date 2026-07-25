@@ -1,6 +1,6 @@
 # Active specification reviews
 
-Programme documents in **Proposed** status with open comment periods.
+Programme documents in **Proposed** status. Comment periods that have closed remain listed here until stewards Accept or return the document to Draft.
 
 ## CLRP-007 — Non-Diagnostic Commitment
 
@@ -9,10 +9,13 @@ Programme documents in **Proposed** status with open comment periods.
 | Document | [CLRP-007](../../clrp/CLRP-007-non-diagnostic-commitment.md) |
 | Version | 0.1.0 |
 | Proposed | 2026-07-07 |
-| Comment period ends | **2026-07-21** (minimum 14 days) |
-| Merge to Accepted | After unresolved objections addressed |
+| Comment period | **Closed 2026-07-21** (minimum 14 days completed) |
+| Status | **Proposed — disposition pending** |
+| Merge to Accepted | After unresolved objections addressed by stewards |
 
 ### How to comment
+
+Comments remain welcome while the document is Proposed:
 
 - Open a [GitHub Issue](https://github.com/SynapticFour/cognitive-landscape-research-programme/issues) with label `clrp-review`
 - Or submit a pull request with proposed amendments

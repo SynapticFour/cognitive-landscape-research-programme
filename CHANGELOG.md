@@ -35,7 +35,7 @@ Repository-wide snapshot. Individual document status (Draft / Proposed / Accepte
 | CLRP-004 | 0.2.0 | **Accepted** | Changed in this release |
 | CLRP-005 | 0.2.0 | **Accepted** | Changed in this release |
 | CLRP-006 | 0.1.0 | Draft | Unchanged |
-| CLRP-007 | 0.1.0 | Proposed | Unchanged (comment period until 2026-07-21) |
+| CLRP-007 | 0.1.0 | Proposed | Comment period closed 2026-07-21; disposition pending |
 | CLRP-008 | 0.1.0 | Draft | Unchanged |
 | CLRP-009 | 0.1.0 | Draft | Unchanged |
 | CLRP-VR-2026-001 | 0.1.0 | Draft | Unchanged |

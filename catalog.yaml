@@ -62,6 +62,7 @@ specifications:
     version: 0.1.0
     status: Proposed
     review_until: "2026-07-21"
+    review_status: "comment_period_closed_disposition_pending"
     path: clrp/CLRP-007-non-diagnostic-commitment.md
   - id: CLRP-008
     title: Cultural Adaptation
