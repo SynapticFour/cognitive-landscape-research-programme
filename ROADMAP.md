@@ -13,14 +13,14 @@ This roadmap covers **programme-level** milestones for the Cognitive Landscape R
 
 | Milestone | Target | Status |
 |-----------|--------|--------|
-| Publish CLRP repository with governance stack | 2026 Q3 | In progress |
-| CLRP-000 through CLRP-009 in Draft | 2026 Q3 | In progress |
-| CLRP-000, CLRP-002, CLRP-007 → Proposed | 2026 Q4 | Planned |
-| First Zenodo release (`clrp-v2026.1`) | 2026 Q4 | Planned |
-| Ecosystem cross-links (CLM, PCMS, website) | 2026 Q4 | Planned |
-| Migrate shared ethics/validation framing from implementation repos | 2026 Q4 | Planned |
+| Publish CLRP repository with governance stack | 2026 Q3 | **Done** |
+| CLRP-000 through CLRP-009 drafted; CLRP-010 added | 2026 Q3 | **Done** |
+| CLRP-000, CLRP-001, CLRP-002, CLRP-004, CLRP-005 → Accepted; CLRP-007 → Proposed | 2026 Q3 | **Done** (ahead of original Proposed-only target) |
+| First Zenodo release (`clrp-v2026.1`); follow-up `clrp-v2026.2` | 2026 Q3 | **Done** — DOI [10.5281/zenodo.21389829](https://doi.org/10.5281/zenodo.21389829) |
+| Ecosystem cross-links (CLM, PCMS, website) | 2026 Q3 | **Done** (implementations currently pin `clrp-v2026.1`) |
+| Migrate shared ethics/validation framing from implementation repos | 2026 Q4 | In progress |
 
-**Exit criteria:** External reader can understand programme purpose without reading code; at least three CLRP documents in Proposed state.
+**Exit criteria:** External reader can understand programme purpose without reading code; at least three CLRP documents Accepted or Proposed — **met** (five Accepted, one Proposed as of 2026-07).
 
 ---
 

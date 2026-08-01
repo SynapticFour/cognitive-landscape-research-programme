@@ -46,16 +46,17 @@ Numbered foundational documents. Each has a lifecycle (Draft → Proposed → Ac
 
 | ID | Title | Status |
 |----|-------|--------|
-| [CLRP-000](clrp/CLRP-000-foundational-concepts.md) | Foundational Concepts | Draft |
-| [CLRP-001](clrp/CLRP-001-discovering-the-cognitive-landscape.md) | Discovering the Cognitive Landscape | Draft |
-| [CLRP-002](clrp/CLRP-002-vocabulary.md) | Vocabulary | Draft |
+| [CLRP-000](clrp/CLRP-000-foundational-concepts.md) | Foundational Concepts | Accepted |
+| [CLRP-001](clrp/CLRP-001-discovering-the-cognitive-landscape.md) | Discovering the Cognitive Landscape | Accepted |
+| [CLRP-002](clrp/CLRP-002-vocabulary.md) | Vocabulary | Accepted |
 | [CLRP-003](clrp/CLRP-003-measurement-principles.md) | Measurement Principles | Draft |
-| [CLRP-004](clrp/CLRP-004-epistemic-commitments.md) | Epistemic Commitments | Draft |
-| [CLRP-005](clrp/CLRP-005-layer-separation.md) | Layer Separation | Draft |
+| [CLRP-004](clrp/CLRP-004-epistemic-commitments.md) | Epistemic Commitments | Accepted |
+| [CLRP-005](clrp/CLRP-005-layer-separation.md) | Layer Separation | Accepted |
 | [CLRP-006](clrp/CLRP-006-evidence-and-validation.md) | Evidence and Validation | Draft |
-| [CLRP-007](clrp/CLRP-007-non-diagnostic-commitment.md) | Non-Diagnostic Commitment | Draft |
+| [CLRP-007](clrp/CLRP-007-non-diagnostic-commitment.md) | Non-Diagnostic Commitment | Proposed |
 | [CLRP-008](clrp/CLRP-008-cultural-adaptation.md) | Cultural Adaptation | Draft |
 | [CLRP-009](clrp/CLRP-009-implementations-and-conformance.md) | Implementations and Conformance | Draft |
+| [CLRP-010](clrp/CLRP-010-structural-theory-geology-of-the-landscape.md) | Structural Theory (Geology of the Landscape) | Draft |
 
 Full index: [clrp/index.md](clrp/index.md)
 
