@@ -2,7 +2,7 @@
 
 All notable changes to the Cognitive Landscape Research Programme repository are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).  
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 CLRP specification documents maintain their own revision history; this file tracks **repository-level** releases and governance events.
 
 ## [Unreleased]
@@ -11,6 +11,8 @@ CLRP specification documents maintain their own revision history; this file trac
 
 - **CLRP-010** v0.1.0 (Draft) — Structural Theory (Geology of the Landscape)
 - **CLRP-RN-2026-001** — Emergent topology derivation (CLM design note for CLRP-010 §2)
+- **CLRP-RN-2026-002** — Latent parameter measurement and geology/environment framing
+- Catalog validator completeness checks (disk ↔ catalog, validation reports, frontmatter, index tables) with pinned `requirements-dev.txt` and tests
 
 ## [clrp-v2026.2] - 2026-07-16
 

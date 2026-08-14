@@ -60,6 +60,16 @@ Do not mark a document **Accepted** in your own PR unless you are a programme st
 - Request the next available ID in your PR description or open an issue first.
 - Numbers are **never reused**.
 - File naming: `CLRP-NNN-short-title.md` (three-digit zero-padded).
+- Add a row to [`catalog.yaml`](catalog.yaml) and to [`clrp/index.md`](clrp/index.md) (or the series README for notes, validation reports, technical reports, and proposals).
+- Run the catalog check locally (requires [requirements-dev.txt](requirements-dev.txt)):
+
+```bash
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/validate-catalog.py
+python3 -m pytest tests -q
+```
+
+The same commands run in CI (`.github/workflows/link-check.yml`, catalog job) and via `scripts/hooks/ci-check.sh`.
 
 ## Writing standards
 

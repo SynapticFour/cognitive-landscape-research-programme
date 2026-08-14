@@ -24,6 +24,7 @@ flowchart TB
     CLRP007[CLRP-007 Non-Diagnostic]
     CLRP008[CLRP-008 Cultural Adaptation]
     CLRP009[CLRP-009 Implementations]
+    CLRP010[CLRP-010 Structural Theory]
   end
 
   subgraph evidence [Evidence layer]
@@ -159,6 +160,8 @@ cognitive-landscape-research-programme/
 ├── CODE_OF_CONDUCT.md
 ├── SECURITY.md
 ├── CITATION.cff
+├── catalog.yaml                   # Machine-readable document index
+├── requirements-dev.txt           # PyYAML + pytest pins for catalog CI
 ├── LICENSE                        # MIT (scripts)
 ├── LICENSE-docs                   # CC BY 4.0 (documentation)
 │
@@ -181,7 +184,10 @@ cognitive-landscape-research-programme/
 │   ├── citation/
 │   └── ecosystem/
 │
-└── scripts/                       # Maintenance tooling (MIT)
+├── scripts/                       # Maintenance tooling (MIT)
+│   ├── validate-catalog.py
+│   └── hooks/ci-check.sh
+└── tests/                         # Catalog validator tests
 ```
 
 ## Design constraints
@@ -192,19 +198,27 @@ cognitive-landscape-research-programme/
 4. **Separation of evidence and commitment** — validation reports do not auto-upgrade spec status.
 5. **Long-term readability** — plain Markdown, minimal build dependencies.
 
+## Implemented tooling
+
+| Tool | Location |
+|------|----------|
+| Markdown link check | `.github/workflows/link-check.yml` (lychee) |
+| Catalog, path, frontmatter, and index CI | `scripts/validate-catalog.py`, `tests/test_validate_catalog.py` |
+| Local CI parity hook | `scripts/hooks/ci-check.sh`, `.pre-commit-config.yaml` |
+
+`catalog.yaml` is the machine-readable source of truth. The validator requires a 1:1 mapping with series files on disk, compares YAML frontmatter, and diffs `clrp/index.md` plus series README tables.
+
 ## Future extensions (not yet implemented)
 
 Reserved for programme growth without restructuring:
 
 | Extension | Location |
 |-----------|----------|
-| Link-check CI | `.github/workflows/link-check.yml`, `scripts/validate-catalog.py` |
 | Zenodo DOI automation | `.zenodo.json`, `docs/zenodo-integration.md` |
-| Document index CI | validates frontmatter, broken links |
 | Quarto PDF exports | optional `render/` directory |
 | Translations | `clrp/locale/` with attribution per CLRP-008 |
 
 ---
 
-**Version:** 1.0.0  
+**Version:** 1.0.0
 **Status:** Accepted

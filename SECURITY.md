@@ -58,6 +58,8 @@ If `scripts/` grows beyond trivial maintenance tooling, each script should:
 - Not process secrets or participant data
 - Pin dependencies if a package manifest is introduced
 
+Catalog CI dependencies are pinned in [`requirements-dev.txt`](requirements-dev.txt).
+
 ## Disclosure policy
 
 We follow coordinated disclosure. We will:

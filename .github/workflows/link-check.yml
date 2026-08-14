@@ -47,8 +47,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install PyYAML
-        run: pip install pyyaml
+      - name: Install Python dependencies
+        run: pip install -r requirements-dev.txt
 
       - name: Validate catalog.yaml
         run: python3 scripts/validate-catalog.py
+
+      - name: Catalog validator tests
+        run: python3 -m pytest tests -q

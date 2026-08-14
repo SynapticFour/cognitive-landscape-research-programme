@@ -21,6 +21,11 @@ _site/
 .env
 .env.*
 
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+
 # Research data must never be committed
 data/
 participants/

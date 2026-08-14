@@ -23,7 +23,7 @@ Think of CLRP as sitting between:
 
 ## What this repository is not
 
-- **Not a codebase.** Any scripts here exist only to maintain documentation integrity.
+- **Not a codebase.** Any scripts here exist only to maintain documentation integrity. The catalog gate is `python3 scripts/validate-catalog.py` (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 - **Not an instrument manual.** Question banks, scoring pipelines, and UI copy belong in PCMS or successor instruments.
 - **Not a simulation library.** Dynamics, structural models, and layer APIs belong in CLM or successor libraries.
 - **Not a substitute for peer review.** CLRP documents state programme commitments; publications and validation reports provide evidence.
