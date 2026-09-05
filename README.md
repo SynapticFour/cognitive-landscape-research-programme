@@ -1,5 +1,9 @@
 # Cognitive Landscape Research Programme (CLRP)
 
+> **Development paused (2026-09).** This is a **research programme**, not a
+> Synaptic Four product SKU, not diagnostic, not Ferrum, and not hospital
+> infrastructure.
+
 **A public, implementation-independent foundation for research on cognitive diversity as a continuous landscape.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
