@@ -1,9 +1,9 @@
 # Cognitive Landscape Research Programme (CLRP)
 
-Freeze status (2026-09): [STATUS.md](STATUS.md).
+Status: [STATUS.md](STATUS.md).
 
 
-> **Development paused (2026-09).** This is a **research programme**, not a
+> This is a **research programme**, not a
 > Synaptic Four product SKU, not diagnostic, not Ferrum, and not hospital
 > infrastructure.
 
