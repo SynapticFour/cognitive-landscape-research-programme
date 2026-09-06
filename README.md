@@ -1,8 +1,5 @@
 # Cognitive Landscape Research Programme (CLRP)
 
-Status: [STATUS.md](STATUS.md).
-
-
 > This is a **research programme**, not a
 > Synaptic Four product SKU, not diagnostic, not Ferrum, and not hospital
 > infrastructure.
