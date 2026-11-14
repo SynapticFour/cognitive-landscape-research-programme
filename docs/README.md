@@ -1,64 +1,42 @@
-# Documentation index
+# CLRP documentation
 
-This directory contains **meta-documentation** for the Cognitive Landscape Research Programme: policies, architecture, citation, versioning, and ecosystem relationships.
+Every document under `docs/`, grouped as a tutorial, how-to guides, reference, and explanation. One line each.
 
-Programme specifications live in [`../clrp/`](../clrp/). This directory explains **how the repository works**, not the scientific content itself.
+Specifications live in `clrp/`, not in this directory. Read [STATUS.md](STATUS.md) before treating a document status as a public maturity label.
 
-## Contents
+## Tutorial
 
-| Document | Purpose |
-|----------|---------|
-| [architecture/repository-architecture.md](architecture/repository-architecture.md) | Repository structure and information flow |
-| [versioning/versioning-policy.md](versioning/versioning-policy.md) | Document lifecycle, releases, draft marking |
-| [citation/citation-guide.md](citation/citation-guide.md) | How to cite CLRP, documents, and releases |
-| [ecosystem/relationship-to-clm.md](ecosystem/relationship-to-clm.md) | CLRP ↔ Cognitive Landscape Model |
-| [ecosystem/relationship-to-pcms.md](ecosystem/relationship-to-pcms.md) | CLRP ↔ Perceptual & Cognitive Mapping System |
-| [ecosystem/relationship-to-synapticfour.md](ecosystem/relationship-to-synapticfour.md) | CLRP ↔ Synaptic Four website and organisation |
-| [zenodo-integration.md](zenodo-integration.md) | DOI archival via Zenodo + GitHub Releases |
-| [governance/active-reviews.md](governance/active-reviews.md) | Open Proposed document comment periods |
+| Document | What it is |
+|----------|------------|
+| [GETTING-STARTED.md](GETTING-STARTED.md) | Where each reader starts, and how to check the catalog |
 
-## Licensing rationale
+## How-to guides
 
-CLRP uses a **dual license** model:
+| Document | What it is |
+|----------|------------|
+| [versioning/versioning-policy.md](versioning/versioning-policy.md) | How a document moves through Draft, Proposed, and Accepted |
+| [zenodo-integration.md](zenodo-integration.md) | How a release is archived with a DOI |
 
-### Documentation — CC BY 4.0
+## Reference
 
-All programme specifications, reports, notes, and validation documents are licensed under [Creative Commons Attribution 4.0 International](../LICENSE-docs).
+| Document | What it is |
+|----------|------------|
+| [citation/citation-guide.md](citation/citation-guide.md) | How to cite the programme, a document, or a release |
+| [FOR-EVALUATORS.md](FOR-EVALUATORS.md) | What an institutional reader should and should not conclude |
+| [governance/active-reviews.md](governance/active-reviews.md) | Open comment periods on Proposed documents |
+| [SCOPE.md](SCOPE.md) | What this repository is not |
+| [STATUS.md](STATUS.md) | No public maturity stage, plus the draft validation tiers |
 
-**Why CC BY 4.0:**
+## Explanation
 
-| Requirement | How CC BY 4.0 serves it |
-|-------------|--------------------------|
-| Academic citation | Requires attribution — aligns with scientific norms |
-| Decades-long maintenance | Permits republication in textbooks, course materials, and translations with credit |
-| Institutional reuse | Ethics boards and funders can excerpt normative statements legally |
-| Openness | Allows commercial reuse (e.g. integrated into paid training materials) with attribution — reduces friction for adoption |
-| Fork independence | Does not impose share-alike on derivative implementations |
+| Document | What it is |
+|----------|------------|
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Pointer to the archive layout |
+| [architecture/repository-architecture.md](architecture/repository-architecture.md) | How the collections relate |
+| [ecosystem/relationship-to-clm.md](ecosystem/relationship-to-clm.md) | This programme and the computational model |
+| [ecosystem/relationship-to-pcms.md](ecosystem/relationship-to-pcms.md) | This programme and the public questionnaire |
+| [ecosystem/relationship-to-synapticfour.md](ecosystem/relationship-to-synapticfour.md) | This programme and the website, including the live pages |
+| [FROM-README.md](FROM-README.md) | The previous README, including the specification table |
+| [REPOSITORY-GUIDE.md](REPOSITORY-GUIDE.md) | The previous docs index, including the licensing rationale |
 
-**Why not CC BY-SA:** Share-alike would require derivatives of documentation (including slides, localised pamphlets, or composite handbooks) to use the same license. That can impede institutional publishers and mixed-license anthologies without improving scientific integrity.
-
-**Why not CC0:** Public domain dedication removes attribution requirements, weakening traceability of programme commitments over decades.
-
-**Why not GFDL:** Less familiar to modern open-science tooling; incompatible with some reuse patterns.
-
-### Software — MIT
-
-Scripts in [`../scripts/`](../scripts/) use [MIT](../LICENSE). MIT is the programme's chosen license for all Synaptic Four research software (CLM, PCMS). Keeping tooling under MIT avoids license friction when scripts are copied into implementation repositories.
-
-## Document types vs locations
-
-```
-clrp/              → Normative programme specifications (CLRP-NNN)
-technical-reports/ → Long-form CLRP-TR studies
-research-notes/    → Short exploratory CLRP-RN notes
-validation/        → Evidence and protocol reports
-proposals/         → Pre-acceptance extensions
-open-questions/    → Unresolved programme questions
-bibliography/      → Shared BibTeX
-historical-influences/ → Intellectual lineage
-docs/              → Repository policies (this directory)
-```
-
-## Contributing to docs/
-
-Changes to versioning, citation, or governance policies follow the same review standards as CLRP specifications. See [../CONTRIBUTING.md](../CONTRIBUTING.md).
+Files outside `docs/` that the same reading needs: [../clrp/index.md](../clrp/index.md), [../CITATION.cff](../CITATION.cff), [../LICENSE](../LICENSE), [../LICENSE-docs](../LICENSE-docs), [../GOVERNANCE.md](../GOVERNANCE.md), [../CONTRIBUTING.md](../CONTRIBUTING.md), [../SECURITY.md](../SECURITY.md), [../CHANGELOG.md](../CHANGELOG.md), [../ROADMAP.md](../ROADMAP.md).
