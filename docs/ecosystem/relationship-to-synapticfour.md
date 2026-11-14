@@ -7,7 +7,7 @@ Synaptic Four is the **initial steward** of the Cognitive Landscape Research Pro
 | Surface | Role relative to CLRP |
 |---------|------------------------|
 | **CLRP repository** | Authoritative programme text |
-| **Synaptic Four website** | Orientation, publications index, contact |
+| **Synaptic Four website** | Orientation for the open research pages, contact. The constitution stays in this repository. |
 | **CLM / PCMS repos** | Implementations referencing CLRP |
 | **SF-TR series** (`technical-reports` repo) | Synaptic Four technical reports (genomics, infrastructure); distinct from CLRP-TR |
 
@@ -28,8 +28,22 @@ Synaptic Four maintains CLM and PCMS but does not imply that all programme resea
 1. **Introduce** the Cognitive Landscape Research Programme with a link to the CLRP repository
 2. **List** peer-reviewed and preprint publications arising from the programme
 3. **Orient** visitors to PCMS as one instrument (`map.synapticfour.com`)
-4. **Present** CLM when publicly launched (currently PCMS-focused)
-5. **Separate** Synaptic Four consulting/services from programme research artifacts
+4. **Link** the computational model on the base page, [https://synapticfour.com/en/offene-forschung/unterbau/](https://synapticfour.com/en/offene-forschung/unterbau/)
+5. **Separate** Synaptic Four consulting and services from programme research artifacts
+
+### Live pages
+
+English:
+
+- Open research: [https://synapticfour.com/en/offene-forschung/](https://synapticfour.com/en/offene-forschung/)
+- The map (the public questionnaire): [https://synapticfour.com/en/offene-forschung/karte/](https://synapticfour.com/en/offene-forschung/karte/)
+- The base (the computational model and the review reports): [https://synapticfour.com/en/offene-forschung/unterbau/](https://synapticfour.com/en/offene-forschung/unterbau/)
+- The research programme: [https://synapticfour.com/en/offene-forschung/forschungsprogramm/](https://synapticfour.com/en/offene-forschung/forschungsprogramm/)
+- Technical profile: [https://synapticfour.com/en/technical/code/](https://synapticfour.com/en/technical/code/)
+
+The same pages exist in German under `/de/offene-forschung/` and `/de/technik/code/`, and in French under `/fr/offene-forschung/` and `/fr/technique/code/`.
+
+The tree below is an earlier sketch. It is not the live information architecture.
 
 ### What the website should not do
 
@@ -43,7 +57,7 @@ Synaptic Four maintains CLM and PCMS but does not imply that all programme resea
 ```
 synapticfour.com/
 ├── research/
-│   └── cognitive-landscape/          # Programme landing page (live on site)
+│   └── cognitive-landscape/          # Earlier sketch. Not the live path.
 │       ├── overview → links to CLRP repo
 │       ├── pcm-research-note/        # (existing) instrument orientation
 │       └── publications/             # Programme bibliography
