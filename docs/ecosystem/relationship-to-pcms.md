@@ -75,7 +75,7 @@ High-dimensional extensions (e.g. ATLAS micro-trait architecture) are **separate
 
 ## Website and public communication
 
-The Synaptic Four website describes PCMS as open research (see [relationship-to-synapticfour.md](relationship-to-synapticfour.md)). Public pages should link to CLRP for programme principles, not only to PCMS.
+The Synaptic Four website describes PCMS as open research. The English overview is [https://synapticfour.com/en/research/](https://synapticfour.com/en/research/), and the public questionnaire is [https://map.synapticfour.com](https://map.synapticfour.com). Public pages should link to CLRP for programme principles, not only to PCMS. See [relationship-to-synapticfour.md](relationship-to-synapticfour.md).
 
 ---
 

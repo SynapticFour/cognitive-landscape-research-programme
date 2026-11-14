@@ -1,139 +1,95 @@
 # Cognitive Landscape Research Programme (CLRP)
 
-**A public, implementation-independent foundation for research on cognitive diversity as a continuous landscape.**
+CLRP is the open foundation for describing differences in thinking as positions on continuous scales, without turning those positions into a diagnosis. The texts are meant to outlast any one piece of software.
+
+For a researcher, a funder, or an institution that wants the assumptions and the limits in writing, separate from the questionnaire and from the computational library.
+
+**Status: No public status is recorded.** The claims registry has no maturity stage for this repository. Each specification has its own document status in [clrp/index.md](clrp/index.md). The tags `clrp-v2026.1` and `clrp-v2026.2` are releases. A tag is not a public status label.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Documentation: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey.svg)](LICENSE-docs)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21389829.svg)](https://doi.org/10.5281/zenodo.21389829)
 
----
+## What it does
 
-## What this repository is
+- It holds the numbered specifications in `clrp/`, from foundational concepts through implementations. The index is [clrp/index.md](clrp/index.md).
+- It holds draft validation reports. The questionnaire report records tier T0. The model report records tier T1 for engineering verification. See [docs/STATUS.md](docs/STATUS.md).
+- It states a working assumption: cognitive traits are mostly distributed along a continuum, and fixed labels represent them poorly (CLRP-RATIONALE-001). That assumption is not an established finding.
+- The four parts of the work are this programme, the model [CLM](https://github.com/SynapticFour/cognitive-landscape-model), the tool [PCMS](https://github.com/SynapticFour/perceptual-cognitive-mapping-system), and the validation reports (CLRP-STRUCTURE-001). Existence of the parts is not a measure of how well they are validated.
 
-The Cognitive Landscape Research Programme (CLRP) is the **constitutional home** of a long-term scientific research programme. It defines what the programme seeks to accomplish, the principles it follows, the assumptions it explicitly does not make, and how evidence should be interpreted.
+## Limits
 
-This repository is **not** software documentation. It is not the home of the [Cognitive Landscape Model (CLM)](https://github.com/SynapticFour/cognitive-landscape-model) or the [Perceptual & Cognitive Mapping System (PCMS)](https://github.com/SynapticFour/perceptual-cognitive-mapping-system). Those are *implementations* and *instruments* that **reference** CLRP.
+- Not the public questionnaire, and not the computational library. Those are the repositories linked above.
+- Not a diagnostic instrument. The non-diagnostic text is [CLRP-007](clrp/CLRP-007-non-diagnostic-commitment.md), and its status is Proposed, pending steward disposition.
+- Not an empirical sample. The questionnaire report is a draft at tier T0: there is no empirical sample yet (PCMS-VALIDATION-001).
+- A catalog check confirms files. It does not confirm a scientific result.
 
-Think of CLRP as sitting between:
+The boundary is [docs/SCOPE.md](docs/SCOPE.md). The previous README, including the specification table, is [docs/FROM-README.md](docs/FROM-README.md).
 
-- an RFC series (numbered, versioned, citable specifications),
-- an open scientific research programme (questions, evidence standards, validation),
-- a design constitution (principles, boundaries, non-goals),
-- and a living archive of foundational documentation.
+## How to read
 
-## What this repository is not
+Prerequisites: none. This repository is documents.
 
-- **Not a codebase.** Any scripts here exist only to maintain documentation integrity. The catalog gate is `python3 scripts/validate-catalog.py` (see [CONTRIBUTING.md](CONTRIBUTING.md)).
-- **Not an instrument manual.** Question banks, scoring pipelines, and UI copy belong in PCMS or successor instruments.
-- **Not a simulation library.** Dynamics, structural models, and layer APIs belong in CLM or successor libraries.
-- **Not a substitute for peer review.** CLRP documents state programme commitments; publications and validation reports provide evidence.
+Start with [CLRP-000](clrp/CLRP-000-foundational-concepts.md) for the concepts, or with [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md) for the reader-specific path. To check the catalog:
 
-## Start here
-
-| Audience | Start with |
-|----------|------------|
-| New contributors | [CONTRIBUTING.md](CONTRIBUTING.md) → [CLRP-000](clrp/CLRP-000-foundational-concepts.md) |
-| Researchers citing the programme | [CITATION.cff](CITATION.cff) → [docs/citation/citation-guide.md](docs/citation/citation-guide.md) |
-| Implementers (CLM, PCMS, others) | [CLRP-009](clrp/CLRP-009-implementations-and-conformance.md) → [docs/ecosystem/](docs/ecosystem/) |
-| Institutional reviewers | [CLRP-007](clrp/CLRP-007-non-diagnostic-commitment.md) → [validation/](validation/) |
-| Programme stewards | [GOVERNANCE.md](GOVERNANCE.md) → [ROADMAP.md](ROADMAP.md) |
-
-## Document series
-
-### CLRP specifications (`clrp/`)
-
-Numbered foundational documents. Each has a lifecycle (Draft → Proposed → Accepted → Deprecated/Superseded). See [docs/versioning/versioning-policy.md](docs/versioning/versioning-policy.md).
-
-| ID | Title | Status |
-|----|-------|--------|
-| [CLRP-000](clrp/CLRP-000-foundational-concepts.md) | Foundational Concepts | Accepted |
-| [CLRP-001](clrp/CLRP-001-discovering-the-cognitive-landscape.md) | Discovering the Cognitive Landscape | Accepted |
-| [CLRP-002](clrp/CLRP-002-vocabulary.md) | Vocabulary | Accepted |
-| [CLRP-003](clrp/CLRP-003-measurement-principles.md) | Measurement Principles | Draft |
-| [CLRP-004](clrp/CLRP-004-epistemic-commitments.md) | Epistemic Commitments | Accepted |
-| [CLRP-005](clrp/CLRP-005-layer-separation.md) | Layer Separation | Accepted |
-| [CLRP-006](clrp/CLRP-006-evidence-and-validation.md) | Evidence and Validation | Draft |
-| [CLRP-007](clrp/CLRP-007-non-diagnostic-commitment.md) | Non-Diagnostic Commitment | Proposed |
-| [CLRP-008](clrp/CLRP-008-cultural-adaptation.md) | Cultural Adaptation | Draft |
-| [CLRP-009](clrp/CLRP-009-implementations-and-conformance.md) | Implementations and Conformance | Draft |
-| [CLRP-010](clrp/CLRP-010-structural-theory-geology-of-the-landscape.md) | Structural Theory (Geology of the Landscape) | Draft |
-
-Full index: [clrp/index.md](clrp/index.md)
-
-### Other collections
-
-| Collection | Purpose |
-|------------|---------|
-| [technical-reports/](technical-reports/) | Long-form methods, analyses, and design studies (CLRP-TR series) |
-| [research-notes/](research-notes/) | Short, dated exploratory notes (CLRP-RN series) |
-| [validation/](validation/) | Validation protocols, study reports, and evidence summaries |
-| [proposals/](proposals/) | Proposed extensions awaiting acceptance |
-| [open-questions/](open-questions/) | Explicitly unresolved programme questions |
-| [bibliography/](bibliography/) | Shared references |
-| [historical-influences/](historical-influences/) | Intellectual lineage and acknowledged predecessors |
-
-## Core commitments (summary)
-
-CLRP rests on commitments that apply to **all** programme work, including future implementations:
-
-1. **Continuous dimensional modelling** — cognition as coordinates in a landscape, not categorical labels.
-2. **Measurement ≠ interpretation** — coordinates, dynamics, and narrative frames are strictly separated.
-3. **Non-diagnostic, non-gatekeeping** — no clinical claims; no access control based on scores.
-4. **Honest evidence stance** — distinguish design hypotheses from empirically validated claims.
-5. **Reproducibility** — versioned protocols, pinned references, and explicit provenance.
-6. **Cultural humility** — adaptation is not translation; cross-locale claims require invariance evidence.
-7. **Implementation independence** — CLRP defines *what* and *why*; implementations define *how*.
-
-Details: [CLRP-000](clrp/CLRP-000-foundational-concepts.md) through [CLRP-009](clrp/CLRP-009-implementations-and-conformance.md).
-
-## Ecosystem
-
-```
-                    ┌─────────────────────────────┐
-                    │  CLRP (this repository)     │
-                    │  Principles · Evidence ·    │
-                    │  Vocabulary · Validation    │
-                    └──────────────┬──────────────┘
-                                   │ references
-           ┌───────────────────────┼───────────────────────┐
-           ▼                       ▼                       ▼
-    ┌─────────────┐         ┌─────────────┐         ┌─────────────┐
-    │    PCMS     │         │     CLM     │         │  Future     │
-    │ instrument  │         │  modelling  │         │ systems     │
-    └─────────────┘         └─────────────┘         └─────────────┘
+```bash
+pip install -r requirements-dev.txt
+python3 scripts/validate-catalog.py
 ```
 
-See [docs/ecosystem/](docs/ecosystem/) and [docs/architecture/repository-architecture.md](docs/architecture/repository-architecture.md).
+When the catalog matches the files, the script exits 0.
 
-## Licensing
+## Documentation
 
-| Content type | License | File |
-|--------------|---------|------|
-| Documentation (CLRP specs, reports, notes) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [LICENSE-docs](LICENSE-docs) |
-| Scripts and tooling | [MIT](https://opensource.org/licenses/MIT) | [LICENSE](LICENSE) |
+Every file under `docs/` is listed in [docs/README.md](docs/README.md). The groups are a tutorial, how-to guides, reference, and explanation.
 
-Rationale: [docs/README.md](docs/README.md#licensing-rationale)
+### Tutorial
 
-## Citation
+- [Getting started](docs/GETTING-STARTED.md)
 
-To cite the programme as a whole, use [CITATION.cff](CITATION.cff). To cite a specific document, use its document ID, version, and release DOI when available. See [docs/citation/citation-guide.md](docs/citation/citation-guide.md).
+### How-to guides
 
-**Latest release:** [clrp-v2026.2](https://github.com/SynapticFour/cognitive-landscape-research-programme/releases/tag/clrp-v2026.2) · **DOI:** [10.5281/zenodo.21389829](https://doi.org/10.5281/zenodo.21389829) · Concept DOI: [10.5281/zenodo.21236099](https://doi.org/10.5281/zenodo.21236099)
+- [Versioning policy](docs/versioning/versioning-policy.md)
+- [Zenodo](docs/zenodo-integration.md)
+- [Contributing](CONTRIBUTING.md)
 
-## Governance and contact
+### Reference
 
-- **Governance:** [GOVERNANCE.md](GOVERNANCE.md)
-- **Roadmap:** [ROADMAP.md](ROADMAP.md)
-- **Changelog:** [CHANGELOG.md](CHANGELOG.md)
-- **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Code of conduct:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- **Security:** [SECURITY.md](SECURITY.md)
-- **Contact:** [contact@synapticfour.com](mailto:contact@synapticfour.com)
+- [Evidence status](docs/STATUS.md)
+- [What this is not](docs/SCOPE.md)
+- [For evaluators](docs/FOR-EVALUATORS.md)
+- [Citation guide](docs/citation/citation-guide.md)
+- [Specification index](clrp/index.md)
 
-## Status
+### Explanation
 
-**Programme maturity:** Foundational (2026). CLRP documents are in **Draft** status until accepted through the governance process. Implementations may exist ahead of validation; CLRP requires that gap to be stated explicitly.
+- [Architecture of the archive](docs/ARCHITECTURE.md)
+- [Repository layout](docs/architecture/repository-architecture.md)
+- [Relationship to the website](docs/ecosystem/relationship-to-synapticfour.md)
 
----
+## Licence
 
-*Synaptic Four · Cognitive Landscape Research Programme*
+Two files, and they cover different things.
+
+- [LICENSE](LICENSE) is the MIT licence. It covers the software: the scripts and tooling in this repository.
+- [LICENSE-docs](LICENSE-docs) is Creative Commons Attribution 4.0. It covers the programme documents: specifications, reports, and notes.
+
+The rationale is in [docs/REPOSITORY-GUIDE.md](docs/REPOSITORY-GUIDE.md). This is not legal advice.
+
+## Cite
+
+Use [CITATION.cff](CITATION.cff). Prefer that file over a hand-copied line. It names release `clrp-v2026.2` and a DOI. To cite one specification, use that document's ID and version, as the citation guide describes.
+
+## Website
+
+- Open research: [https://synapticfour.com/en/research/](https://synapticfour.com/en/research/)
+- The research programme: [https://synapticfour.com/en/research/cognitive-landscape/](https://synapticfour.com/en/research/cognitive-landscape/)
+- Open source and public code: [https://synapticfour.com/en/opensource/](https://synapticfour.com/en/opensource/)
+
+The same pages exist in German (`/de/research/`, `/de/research/cognitive-landscape/`, `/de/opensource/`) and in French (`/fr/research/`, `/fr/research/cognitive-landscape/`, `/fr/opensource/`).
+
+The map of repositories: [profile/README.md](https://github.com/SynapticFour/.github/blob/main/profile/README.md).
+
+Contact: [contact@synapticfour.com](mailto:contact@synapticfour.com)
+
+Governance: [GOVERNANCE.md](GOVERNANCE.md). Changelog: [CHANGELOG.md](CHANGELOG.md). Security: [SECURITY.md](SECURITY.md).

@@ -2,7 +2,7 @@
 
 ## Scope
 
-The Cognitive Landscape Research Programme (CLRP) repository contains **documentation and minimal maintenance scripts**. It does not operate production services, store participant data, or run assessment instruments.
+The Cognitive Landscape Research Programme (CLRP) repository contains **documentation and minimal maintenance scripts**. It does not operate hosted services, store participant data, or run assessment instruments.
 
 Security concerns for CLRP fall into two categories:
 
@@ -30,7 +30,7 @@ Email [contact@synapticfour.com](mailto:contact@synapticfour.com) with:
 - Your assessment of impact
 - Optional: suggested remediation
 
-We aim to acknowledge reports within **5 business days**.
+The programme aims to acknowledge reports within **5 business days**.
 
 ## What belongs here vs elsewhere
 
@@ -62,7 +62,7 @@ Catalog CI dependencies are pinned in [`requirements-dev.txt`](requirements-dev.
 
 ## Disclosure policy
 
-We follow coordinated disclosure. We will:
+The programme follows coordinated disclosure. It will:
 
 1. Confirm the issue
 2. Develop a fix or documentation correction
@@ -71,4 +71,4 @@ We follow coordinated disclosure. We will:
 
 ## Safe harbour
 
-We support good-faith security research on publicly deployed Synaptic Four properties within the scope of their stated policies. Research that involves human participants must follow applicable ethics law independently of this policy.
+The programme supports good-faith security research on publicly deployed Synaptic Four properties within the scope of their stated policies. Research that involves human participants must follow applicable ethics law independently of this policy.

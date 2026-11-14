@@ -7,7 +7,7 @@ Synaptic Four is the **initial steward** of the Cognitive Landscape Research Pro
 | Surface | Role relative to CLRP |
 |---------|------------------------|
 | **CLRP repository** | Authoritative programme text |
-| **Synaptic Four website** | Orientation, publications index, contact |
+| **Synaptic Four website** | Orientation for the open research pages, contact. The constitution stays in this repository. |
 | **CLM / PCMS repos** | Implementations referencing CLRP |
 | **SF-TR series** (`technical-reports` repo) | Synaptic Four technical reports (genomics, infrastructure); distinct from CLRP-TR |
 
@@ -28,8 +28,23 @@ Synaptic Four maintains CLM and PCMS but does not imply that all programme resea
 1. **Introduce** the Cognitive Landscape Research Programme with a link to the CLRP repository
 2. **List** peer-reviewed and preprint publications arising from the programme
 3. **Orient** visitors to PCMS as one instrument (`map.synapticfour.com`)
-4. **Present** CLM when publicly launched (currently PCMS-focused)
-5. **Separate** Synaptic Four consulting/services from programme research artifacts
+4. **Link** the computational model on the implementations page, [https://synapticfour.com/en/research/implementations/](https://synapticfour.com/en/research/implementations/)
+5. **Separate** Synaptic Four consulting and services from programme research artifacts
+
+### Live pages
+
+English:
+
+- Open research: [https://synapticfour.com/en/research/](https://synapticfour.com/en/research/)
+- The map (the public questionnaire): [https://map.synapticfour.com](https://map.synapticfour.com)
+- Research implementations (PCMS and the computational model): [https://synapticfour.com/en/research/implementations/](https://synapticfour.com/en/research/implementations/)
+- Validation reports: [https://synapticfour.com/en/research/validation/](https://synapticfour.com/en/research/validation/)
+- The research programme: [https://synapticfour.com/en/research/cognitive-landscape/](https://synapticfour.com/en/research/cognitive-landscape/)
+- Open source and public code: [https://synapticfour.com/en/opensource/](https://synapticfour.com/en/opensource/)
+
+The same paths exist in German under `/de/` and in French under `/fr/`.
+
+The tree below is an earlier sketch of a deeper structure. The live pages are the list above.
 
 ### What the website should not do
 
@@ -43,7 +58,7 @@ Synaptic Four maintains CLM and PCMS but does not imply that all programme resea
 ```
 synapticfour.com/
 ├── research/
-│   └── cognitive-landscape/          # Programme landing page (live on site)
+│   └── cognitive-landscape/          # Live page. The nested paths under it are an earlier sketch.
 │       ├── overview → links to CLRP repo
 │       ├── pcm-research-note/        # (existing) instrument orientation
 │       └── publications/             # Programme bibliography
