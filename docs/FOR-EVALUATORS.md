@@ -16,4 +16,4 @@ This repository holds the programme's texts. It does not hold a study sample.
 
 ## Website
 
-The English overview is [https://synapticfour.com/en/offene-forschung/](https://synapticfour.com/en/offene-forschung/). This programme's page is [https://synapticfour.com/en/offene-forschung/forschungsprogramm/](https://synapticfour.com/en/offene-forschung/forschungsprogramm/).
+The English overview is [https://synapticfour.com/en/research/](https://synapticfour.com/en/research/). This programme's page is [https://synapticfour.com/en/research/cognitive-landscape/](https://synapticfour.com/en/research/cognitive-landscape/).

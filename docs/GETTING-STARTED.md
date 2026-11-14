@@ -6,7 +6,7 @@ Prerequisites for reading: none. This repository is documents.
 
 | Reader | Start with |
 |--------|------------|
-| Someone new to the programme | [CLRP-000](../clrp/CLRP-000-foundational-concepts.md), then the [open research overview](https://synapticfour.com/en/offene-forschung/) |
+| Someone new to the programme | [CLRP-000](../clrp/CLRP-000-foundational-concepts.md), then the [open research overview](https://synapticfour.com/en/research/) |
 | Someone citing the programme | [CITATION.cff](../CITATION.cff), then [citation/citation-guide.md](citation/citation-guide.md) |
 | Someone implementing a model or a questionnaire | [CLRP-009](../clrp/CLRP-009-implementations-and-conformance.md), then [ecosystem/](ecosystem/) |
 | An institutional reviewer | [FOR-EVALUATORS.md](FOR-EVALUATORS.md), then [CLRP-007](../clrp/CLRP-007-non-diagnostic-commitment.md) and [validation/](../validation/) |

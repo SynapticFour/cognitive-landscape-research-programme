@@ -82,11 +82,11 @@ Use [CITATION.cff](CITATION.cff). Prefer that file over a hand-copied line. It n
 
 ## Website
 
-- Open research: [https://synapticfour.com/en/offene-forschung/](https://synapticfour.com/en/offene-forschung/)
-- The research programme: [https://synapticfour.com/en/offene-forschung/forschungsprogramm/](https://synapticfour.com/en/offene-forschung/forschungsprogramm/)
-- Technical profile: [https://synapticfour.com/en/technical/code/](https://synapticfour.com/en/technical/code/)
+- Open research: [https://synapticfour.com/en/research/](https://synapticfour.com/en/research/)
+- The research programme: [https://synapticfour.com/en/research/cognitive-landscape/](https://synapticfour.com/en/research/cognitive-landscape/)
+- Open source and public code: [https://synapticfour.com/en/opensource/](https://synapticfour.com/en/opensource/)
 
-The same pages exist in German (`/de/offene-forschung/`, `/de/offene-forschung/forschungsprogramm/`, `/de/technik/code/`) and in French (`/fr/offene-forschung/`, `/fr/offene-forschung/forschungsprogramm/`, `/fr/technique/code/`).
+The same pages exist in German (`/de/research/`, `/de/research/cognitive-landscape/`, `/de/opensource/`) and in French (`/fr/research/`, `/fr/research/cognitive-landscape/`, `/fr/opensource/`).
 
 The map of repositories: [profile/README.md](https://github.com/SynapticFour/.github/blob/main/profile/README.md).
 
