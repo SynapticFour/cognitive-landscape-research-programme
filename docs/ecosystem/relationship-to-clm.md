@@ -6,7 +6,7 @@
 |---|------|-----|
 | **What it is** | Research programme constitution | Research-grade TypeScript modelling library |
 | **Repository** | `cognitive-landscape-research-programme` | `cognitive-landscape-model` |
-| **Answers** | What should we commit to? How is evidence judged? | How do we represent, simulate, and explain coordinates? |
+| **Answers** | What should the programme commit to? How is evidence judged? | How are coordinates represented, simulated, and explained? |
 | **Authority** | Normative for programme name and principles | Descriptive for APIs and packages |
 
 **CLM implements aspects of CLRP. CLRP does not document CLM.**

@@ -86,7 +86,7 @@ Top-level files define **who**, **how**, and **when**. They change rarely and re
 
 ### Normative specifications (`clrp/`)
 
-The **authoritative programme text**. Answers: what we commit to, what we exclude, how terms are defined.
+The **authoritative programme text**. It answers what the programme commits to, what it excludes, and how terms are defined.
 
 - Implementation-independent
 - Versioned and status-tracked

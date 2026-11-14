@@ -48,7 +48,7 @@ CLRP keeps two related but different activities explicitly separate:
 
 **Rule:** every empirical result obtained at or beyond the Topology layer (§3) must explicitly name the computational model, method, or dataset through which it was obtained. A landscape-level claim ("dimensions X and Y appear independent in population P") must be reported separately from a model-level claim ("CLM's structural layer, as currently parameterised, reproduces this independence"). Neither may be stated in a way that implies the other without additional argument. This prevents two recurring errors: evidence about a model silently becoming evidence about the landscape, and landscape-level findings being read as validating one particular model.
 
-## 3. What we are trying to discover
+## 3. What the programme is trying to discover
 
 The question classes below correspond to five layers of increasing explanatory depth. They are not mandatory sequential phases—a project may begin at any layer for which it has appropriate data—but each layer presupposes what the shallower layers established.
 

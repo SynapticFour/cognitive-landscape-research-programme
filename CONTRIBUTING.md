@@ -1,6 +1,6 @@
 # Contributing to the Cognitive Landscape Research Programme
 
-Thank you for considering a contribution. CLRP is designed for decades of collaborative scientific work. We prioritise **rigour, transparency, and long-term maintainability** over speed.
+Thank you for considering a contribution. CLRP is designed for decades of collaborative scientific work. The programme prioritises **rigour, transparency, and long-term maintainability** over speed.
 
 ## Before you contribute
 
@@ -91,7 +91,7 @@ The same commands run in CI (`.github/workflows/link-check.yml`, catalog job) an
 - If introducing a new term, propose a vocabulary amendment (PR to CLRP-002 or a proposal document).
 - Do not overload existing terms with implementation-specific meanings.
 
-## What we will not accept
+## What the programme will not accept
 
 - Diagnostic or gatekeeping language without explicit rejection in context.
 - Claims of validated psychometric properties without linked validation reports.
